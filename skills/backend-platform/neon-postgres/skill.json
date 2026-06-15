@@ -1,0 +1,12 @@
+{
+  "rank": 19,
+  "category": "backend-platform",
+  "category_title": "Backend and Platform Development",
+  "source": "neondatabase/agent-skills",
+  "skill_id": "neon-postgres",
+  "skill": "neondatabase/agent-skills@neon-postgres",
+  "folder": "skills/backend-platform/neon-postgres",
+  "installs": "41.5K",
+  "install_command": "npx skills add neondatabase/agent-skills@neon-postgres",
+  "summary": "Strong option for cloud Postgres workflows and operational database work."
+}

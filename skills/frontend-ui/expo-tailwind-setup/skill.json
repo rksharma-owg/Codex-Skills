@@ -1,0 +1,12 @@
+{
+  "rank": 7,
+  "category": "frontend-ui",
+  "category_title": "Frontend and UI Engineering",
+  "source": "expo/skills",
+  "skill_id": "expo-tailwind-setup",
+  "skill": "expo/skills@expo-tailwind-setup",
+  "folder": "skills/frontend-ui/expo-tailwind-setup",
+  "installs": "36.2K",
+  "install_command": "npx skills add expo/skills@expo-tailwind-setup",
+  "summary": "Useful when teams need clean Tailwind setup in Expo-based apps."
+}

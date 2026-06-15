@@ -1,0 +1,12 @@
+{
+  "rank": 22,
+  "category": "testing-qa",
+  "category_title": "Testing and QA",
+  "source": "microsoft/playwright-cli",
+  "skill_id": "playwright-cli",
+  "skill": "microsoft/playwright-cli@playwright-cli",
+  "folder": "skills/testing-qa/playwright-cli",
+  "installs": "57.1K",
+  "install_command": "npx skills add microsoft/playwright-cli@playwright-cli",
+  "summary": "High-value choice for browser testing and repeatable automation workflows."
+}

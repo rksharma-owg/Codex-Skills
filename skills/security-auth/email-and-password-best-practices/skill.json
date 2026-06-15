@@ -1,0 +1,12 @@
+{
+  "rank": 41,
+  "category": "security-auth",
+  "category_title": "Security and Authentication",
+  "source": "better-auth/skills",
+  "skill_id": "email-and-password-best-practices",
+  "skill": "better-auth/skills@email-and-password-best-practices",
+  "folder": "skills/security-auth/email-and-password-best-practices",
+  "installs": "20.8K",
+  "install_command": "npx skills add better-auth/skills@email-and-password-best-practices",
+  "summary": "Focused help for one of the most common auth surfaces in daily work."
+}

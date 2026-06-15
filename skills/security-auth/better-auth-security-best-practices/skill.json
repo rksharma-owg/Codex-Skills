@@ -1,0 +1,12 @@
+{
+  "rank": 43,
+  "category": "security-auth",
+  "category_title": "Security and Authentication",
+  "source": "better-auth/skills",
+  "skill_id": "better-auth-security-best-practices",
+  "skill": "better-auth/skills@better-auth-security-best-practices",
+  "folder": "skills/security-auth/better-auth-security-best-practices",
+  "installs": "16.1K",
+  "install_command": "npx skills add better-auth/skills@better-auth-security-best-practices",
+  "summary": "Reinforces safe defaults and security hygiene across auth flows."
+}

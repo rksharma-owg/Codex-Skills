@@ -1,0 +1,12 @@
+{
+  "rank": 18,
+  "category": "backend-platform",
+  "category_title": "Backend and Platform Development",
+  "source": "supabase/agent-skills",
+  "skill_id": "supabase-postgres-best-practices",
+  "skill": "supabase/agent-skills@supabase-postgres-best-practices",
+  "folder": "skills/backend-platform/supabase-postgres-best-practices",
+  "installs": "231.4K",
+  "install_command": "npx skills add supabase/agent-skills@supabase-postgres-best-practices",
+  "summary": "Excellent baseline for Postgres-backed product development."
+}

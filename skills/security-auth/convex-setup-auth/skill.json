@@ -1,0 +1,12 @@
+{
+  "rank": 38,
+  "category": "security-auth",
+  "category_title": "Security and Authentication",
+  "source": "get-convex/agent-skills",
+  "skill_id": "convex-setup-auth",
+  "skill": "get-convex/agent-skills@convex-setup-auth",
+  "folder": "skills/security-auth/convex-setup-auth",
+  "installs": "65.8K",
+  "install_command": "npx skills add get-convex/agent-skills@convex-setup-auth",
+  "summary": "Strong choice for teams using Convex and needing auth wired correctly early."
+}

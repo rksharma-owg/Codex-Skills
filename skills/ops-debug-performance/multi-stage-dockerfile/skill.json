@@ -1,0 +1,12 @@
+{
+  "rank": 50,
+  "category": "ops-debug-performance",
+  "category_title": "Ops, Debugging, Performance, and Reliability",
+  "source": "github/awesome-copilot",
+  "skill_id": "multi-stage-dockerfile",
+  "skill": "github/awesome-copilot@multi-stage-dockerfile",
+  "folder": "skills/ops-debug-performance/multi-stage-dockerfile",
+  "installs": "15.6K",
+  "install_command": "npx skills add github/awesome-copilot@multi-stage-dockerfile",
+  "summary": "Helps keep container builds smaller, cleaner, and more production-ready."
+}

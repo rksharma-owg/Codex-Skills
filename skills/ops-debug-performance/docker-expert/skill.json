@@ -1,0 +1,12 @@
+{
+  "rank": 48,
+  "category": "ops-debug-performance",
+  "category_title": "Ops, Debugging, Performance, and Reliability",
+  "source": "sickn33/antigravity-awesome-skills",
+  "skill_id": "docker-expert",
+  "skill": "sickn33/antigravity-awesome-skills@docker-expert",
+  "folder": "skills/ops-debug-performance/docker-expert",
+  "installs": "19.6K",
+  "install_command": "npx skills add sickn33/antigravity-awesome-skills@docker-expert",
+  "summary": "Useful operational knowledge for containerized day-to-day development."
+}

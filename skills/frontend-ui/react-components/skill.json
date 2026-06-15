@@ -1,0 +1,12 @@
+{
+  "rank": 5,
+  "category": "frontend-ui",
+  "category_title": "Frontend and UI Engineering",
+  "source": "google-labs-code/stitch-skills",
+  "skill_id": "react:components",
+  "skill": "google-labs-code/stitch-skills@react:components",
+  "folder": "skills/frontend-ui/react-components",
+  "installs": "48.6K",
+  "install_command": "npx skills add google-labs-code/stitch-skills@react:components",
+  "summary": "Helpful for repeatable component work and structured React UI output."
+}

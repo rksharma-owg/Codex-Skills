@@ -1,0 +1,12 @@
+{
+  "rank": 3,
+  "category": "frontend-ui",
+  "category_title": "Frontend and UI Engineering",
+  "source": "vercel-labs/agent-skills",
+  "skill_id": "vercel-react-native-skills",
+  "skill": "vercel-labs/agent-skills@vercel-react-native-skills",
+  "folder": "skills/frontend-ui/vercel-react-native-skills",
+  "installs": "142.2K",
+  "install_command": "npx skills add vercel-labs/agent-skills@vercel-react-native-skills",
+  "summary": "Practical React Native guidance for mobile teams shipping real apps."
+}

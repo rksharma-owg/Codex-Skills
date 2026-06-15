@@ -1,0 +1,12 @@
+{
+  "rank": 36,
+  "category": "data-persistence",
+  "category_title": "Data and Persistence",
+  "source": "apollographql/skills",
+  "skill_id": "graphql-operations",
+  "skill": "apollographql/skills@graphql-operations",
+  "folder": "skills/data-persistence/graphql-operations",
+  "installs": "2.1K",
+  "install_command": "npx skills add apollographql/skills@graphql-operations",
+  "summary": "Helps with operational GraphQL usage and query/mutation discipline."
+}

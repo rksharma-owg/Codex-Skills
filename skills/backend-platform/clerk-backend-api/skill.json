@@ -1,0 +1,12 @@
+{
+  "rank": 14,
+  "category": "backend-platform",
+  "category_title": "Backend and Platform Development",
+  "source": "clerk/skills",
+  "skill_id": "clerk-backend-api",
+  "skill": "clerk/skills@clerk-backend-api",
+  "folder": "skills/backend-platform/clerk-backend-api",
+  "installs": "12K",
+  "install_command": "npx skills add clerk/skills@clerk-backend-api",
+  "summary": "Practical backend-side auth handling and account workflow support."
+}

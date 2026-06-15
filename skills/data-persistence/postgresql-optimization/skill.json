@@ -1,0 +1,12 @@
+{
+  "rank": 32,
+  "category": "data-persistence",
+  "category_title": "Data and Persistence",
+  "source": "github/awesome-copilot",
+  "skill_id": "postgresql-optimization",
+  "skill": "github/awesome-copilot@postgresql-optimization",
+  "folder": "skills/data-persistence/postgresql-optimization",
+  "installs": "12.8K",
+  "install_command": "npx skills add github/awesome-copilot@postgresql-optimization",
+  "summary": "Useful when slow queries and indexing problems start showing up in production."
+}

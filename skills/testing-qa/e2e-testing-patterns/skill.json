@@ -1,0 +1,12 @@
+{
+  "rank": 25,
+  "category": "testing-qa",
+  "category_title": "Testing and QA",
+  "source": "wshobson/agents",
+  "skill_id": "e2e-testing-patterns",
+  "skill": "wshobson/agents@e2e-testing-patterns",
+  "folder": "skills/testing-qa/e2e-testing-patterns",
+  "installs": "17.9K",
+  "install_command": "npx skills add wshobson/agents@e2e-testing-patterns",
+  "summary": "Helps teams structure resilient end-to-end coverage without chaos."
+}

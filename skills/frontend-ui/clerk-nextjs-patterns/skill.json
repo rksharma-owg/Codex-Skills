@@ -1,0 +1,12 @@
+{
+  "rank": 9,
+  "category": "frontend-ui",
+  "category_title": "Frontend and UI Engineering",
+  "source": "clerk/skills",
+  "skill_id": "clerk-nextjs-patterns",
+  "skill": "clerk/skills@clerk-nextjs-patterns",
+  "folder": "skills/frontend-ui/clerk-nextjs-patterns",
+  "installs": "17.4K",
+  "install_command": "npx skills add clerk/skills@clerk-nextjs-patterns",
+  "summary": "Good companion for auth-aware Next.js application structure."
+}

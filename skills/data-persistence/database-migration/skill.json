@@ -1,0 +1,12 @@
+{
+  "rank": 31,
+  "category": "data-persistence",
+  "category_title": "Data and Persistence",
+  "source": "wshobson/agents",
+  "skill_id": "database-migration",
+  "skill": "wshobson/agents@database-migration",
+  "folder": "skills/data-persistence/database-migration",
+  "installs": "13K",
+  "install_command": "npx skills add wshobson/agents@database-migration",
+  "summary": "Good discipline layer for safer change management in live systems."
+}

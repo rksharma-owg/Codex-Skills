@@ -1,0 +1,12 @@
+{
+  "rank": 49,
+  "category": "ops-debug-performance",
+  "category_title": "Ops, Debugging, Performance, and Reliability",
+  "source": "addyosmani/web-quality-skills",
+  "skill_id": "performance",
+  "skill": "addyosmani/web-quality-skills@performance",
+  "folder": "skills/ops-debug-performance/performance",
+  "installs": "16.8K",
+  "install_command": "npx skills add addyosmani/web-quality-skills@performance",
+  "summary": "Good web performance lens from a trusted performance-oriented source."
+}

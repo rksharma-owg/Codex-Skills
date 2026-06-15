@@ -1,0 +1,12 @@
+{
+  "rank": 30,
+  "category": "data-persistence",
+  "category_title": "Data and Persistence",
+  "source": "wshobson/agents",
+  "skill_id": "postgresql-table-design",
+  "skill": "wshobson/agents@postgresql-table-design",
+  "folder": "skills/data-persistence/postgresql-table-design",
+  "installs": "19.5K",
+  "install_command": "npx skills add wshobson/agents@postgresql-table-design",
+  "summary": "Strong guidance for schema quality, maintainability, and future growth."
+}

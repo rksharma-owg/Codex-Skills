@@ -1,0 +1,12 @@
+{
+  "rank": 11,
+  "category": "backend-platform",
+  "category_title": "Backend and Platform Development",
+  "source": "wshobson/agents",
+  "skill_id": "nodejs-backend-patterns",
+  "skill": "wshobson/agents@nodejs-backend-patterns",
+  "folder": "skills/backend-platform/nodejs-backend-patterns",
+  "installs": "36.3K",
+  "install_command": "npx skills add wshobson/agents@nodejs-backend-patterns",
+  "summary": "Covers common backend service structure and maintainable Node server patterns."
+}

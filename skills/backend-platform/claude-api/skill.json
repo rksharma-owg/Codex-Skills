@@ -1,0 +1,12 @@
+{
+  "rank": 12,
+  "category": "backend-platform",
+  "category_title": "Backend and Platform Development",
+  "source": "anthropics/skills",
+  "skill_id": "claude-api",
+  "skill": "anthropics/skills@claude-api",
+  "folder": "skills/backend-platform/claude-api",
+  "installs": "39.1K",
+  "install_command": "npx skills add anthropics/skills@claude-api",
+  "summary": "Useful reference skill for integrating and shipping against a real API surface."
+}

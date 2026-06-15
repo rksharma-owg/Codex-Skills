@@ -1,0 +1,12 @@
+{
+  "rank": 21,
+  "category": "testing-qa",
+  "category_title": "Testing and QA",
+  "source": "anthropics/skills",
+  "skill_id": "webapp-testing",
+  "skill": "anthropics/skills@webapp-testing",
+  "folder": "skills/testing-qa/webapp-testing",
+  "installs": "95.5K",
+  "install_command": "npx skills add anthropics/skills@webapp-testing",
+  "summary": "Broad, practical starting point for application-level testing work."
+}

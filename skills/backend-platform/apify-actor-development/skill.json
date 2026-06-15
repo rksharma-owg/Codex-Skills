@@ -1,0 +1,12 @@
+{
+  "rank": 17,
+  "category": "backend-platform",
+  "category_title": "Backend and Platform Development",
+  "source": "apify/agent-skills",
+  "skill_id": "apify-actor-development",
+  "skill": "apify/agent-skills@apify-actor-development",
+  "folder": "skills/backend-platform/apify-actor-development",
+  "installs": "8.3K",
+  "install_command": "npx skills add apify/agent-skills@apify-actor-development",
+  "summary": "Good fit for teams building automation or data workflows as maintained actors."
+}

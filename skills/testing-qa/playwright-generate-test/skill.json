@@ -1,0 +1,12 @@
+{
+  "rank": 27,
+  "category": "testing-qa",
+  "category_title": "Testing and QA",
+  "source": "github/awesome-copilot",
+  "skill_id": "playwright-generate-test",
+  "skill": "github/awesome-copilot@playwright-generate-test",
+  "folder": "skills/testing-qa/playwright-generate-test",
+  "installs": "13.3K",
+  "install_command": "npx skills add github/awesome-copilot@playwright-generate-test",
+  "summary": "Good accelerator for creating test coverage from user journeys."
+}

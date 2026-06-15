@@ -1,0 +1,12 @@
+{
+  "rank": 40,
+  "category": "security-auth",
+  "category_title": "Security and Authentication",
+  "source": "firebase/agent-skills",
+  "skill_id": "firebase-security-rules-auditor",
+  "skill": "firebase/agent-skills@firebase-security-rules-auditor",
+  "folder": "skills/security-auth/firebase-security-rules-auditor",
+  "installs": "46K",
+  "install_command": "npx skills add firebase/agent-skills@firebase-security-rules-auditor",
+  "summary": "High-value review skill for preventing policy mistakes in Firebase projects."
+}

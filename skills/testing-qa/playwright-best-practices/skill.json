@@ -1,0 +1,12 @@
+{
+  "rank": 23,
+  "category": "testing-qa",
+  "category_title": "Testing and QA",
+  "source": "currents-dev/playwright-best-practices-skill",
+  "skill_id": "playwright-best-practices",
+  "skill": "currents-dev/playwright-best-practices-skill@playwright-best-practices",
+  "folder": "skills/testing-qa/playwright-best-practices",
+  "installs": "50.1K",
+  "install_command": "npx skills add currents-dev/playwright-best-practices-skill@playwright-best-practices",
+  "summary": "Adds disciplined Playwright habits beyond basic script generation."
+}

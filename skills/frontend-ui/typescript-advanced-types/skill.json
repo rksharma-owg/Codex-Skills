@@ -1,0 +1,12 @@
+{
+  "rank": 10,
+  "category": "frontend-ui",
+  "category_title": "Frontend and UI Engineering",
+  "source": "wshobson/agents",
+  "skill_id": "typescript-advanced-types",
+  "skill": "wshobson/agents@typescript-advanced-types",
+  "folder": "skills/frontend-ui/typescript-advanced-types",
+  "installs": "47.2K",
+  "install_command": "npx skills add wshobson/agents@typescript-advanced-types",
+  "summary": "Strong utility skill for safer APIs and better type-level design."
+}

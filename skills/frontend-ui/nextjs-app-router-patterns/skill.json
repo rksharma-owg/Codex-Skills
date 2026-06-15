@@ -1,0 +1,12 @@
+{
+  "rank": 8,
+  "category": "frontend-ui",
+  "category_title": "Frontend and UI Engineering",
+  "source": "wshobson/agents",
+  "skill_id": "nextjs-app-router-patterns",
+  "skill": "wshobson/agents@nextjs-app-router-patterns",
+  "folder": "skills/frontend-ui/nextjs-app-router-patterns",
+  "installs": "21.1K",
+  "install_command": "npx skills add wshobson/agents@nextjs-app-router-patterns",
+  "summary": "Solid choice for modern Next.js project structure and routing patterns."
+}

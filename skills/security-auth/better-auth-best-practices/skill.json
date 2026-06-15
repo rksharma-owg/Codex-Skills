@@ -1,0 +1,12 @@
+{
+  "rank": 39,
+  "category": "security-auth",
+  "category_title": "Security and Authentication",
+  "source": "better-auth/skills",
+  "skill_id": "better-auth-best-practices",
+  "skill": "better-auth/skills@better-auth-best-practices",
+  "folder": "skills/security-auth/better-auth-best-practices",
+  "installs": "61.2K",
+  "install_command": "npx skills add better-auth/skills@better-auth-best-practices",
+  "summary": "Good general-purpose auth guardrails for product teams."
+}

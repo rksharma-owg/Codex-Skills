@@ -1,0 +1,12 @@
+{
+  "rank": 45,
+  "category": "ops-debug-performance",
+  "category_title": "Ops, Debugging, Performance, and Reliability",
+  "source": "obra/superpowers",
+  "skill_id": "systematic-debugging",
+  "skill": "obra/superpowers@systematic-debugging",
+  "folder": "skills/ops-debug-performance/systematic-debugging",
+  "installs": "143.4K",
+  "install_command": "npx skills add obra/superpowers@systematic-debugging",
+  "summary": "Excellent day-to-day debugging process skill with broad applicability."
+}

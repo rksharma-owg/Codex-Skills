@@ -1,0 +1,12 @@
+{
+  "rank": 24,
+  "category": "testing-qa",
+  "category_title": "Testing and QA",
+  "source": "wshobson/agents",
+  "skill_id": "python-testing-patterns",
+  "skill": "wshobson/agents@python-testing-patterns",
+  "folder": "skills/testing-qa/python-testing-patterns",
+  "installs": "24.2K",
+  "install_command": "npx skills add wshobson/agents@python-testing-patterns",
+  "summary": "Useful everyday guidance for maintainable Python test suites."
+}
