@@ -24,7 +24,7 @@ This repository combines two distinct layers:
 | `skills/` | Main curated library, organized by category and then by individual skill folder. |
 | `skills/<category>/<skill>/README.md` | Professional summary page for a single curated skill. |
 | `skills/<category>/<skill>/skill.json` | Structured metadata for a single curated skill. |
-| `security-skills/` | Dedicated security skill packages with source notes and supporting files. |
+| `skills/security-skills/` | Security skill packages stored inside the main skills library. |
 
 ## Skill Categories
 
@@ -47,5 +47,5 @@ This repository combines two distinct layers:
 ## Important Notes
 
 - Curated entries in `skills/` are organizational summaries created for this repository.
-- Security-focused packaged skills in `security-skills/` are kept in their own section with source notes.
+- Security-focused packaged skills in `skills/security-skills/` are kept inside the main skills library with source notes.
 - Original skills should always be installed and maintained from their source repositories.
