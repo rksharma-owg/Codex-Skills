@@ -5,7 +5,7 @@ A professionally organized library of high-signal development skills for daily e
 This repository combines two distinct layers:
 
 - An original curated catalog of top development skills, rewritten for clarity and consistent organization.
-- A dedicated application security skill package with source notes and supporting files.
+- A dedicated application security skill package with installation guidance and supporting files.
 
 ## Highlights
 
@@ -24,7 +24,7 @@ This repository combines two distinct layers:
 | `skills/` | Main curated library, organized by category and then by individual skill folder. |
 | `skills/<category>/<skill>/README.md` | Professional summary page for a single curated skill. |
 | `skills/<category>/<skill>/skill.json` | Structured metadata for a single curated skill. |
-| `skills/application-security/` | Application security skill package with source notes and reference files. |
+| `skills/application-security/` | Application security skill package with install guidance and reference files. |
 
 ## Skill Categories
 
@@ -47,5 +47,5 @@ This repository combines two distinct layers:
 ## Important Notes
 
 - Curated entries in `skills/` are organizational summaries created for this repository.
-- The application security skill package lives directly in `skills/` with its source notes and reference files.
+- The application security skill package lives directly in `skills/` with install guidance and reference files.
 - Original skills should always be installed and maintained from their source repositories.

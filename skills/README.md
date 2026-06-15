@@ -15,7 +15,7 @@ The curated library is organized by category first and by individual skill secon
 
 ## Additional Skill Package
 
-- [application-security](./application-security/SOURCE.md): Application security package with source notes and supporting reference material.
+- [application-security](./application-security/README.md): Application security package with install guidance and supporting reference material.
 
 ## Folder Convention
 
