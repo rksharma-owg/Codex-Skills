@@ -1,13 +1,27 @@
 # Security and Authentication
 
-Skills for authentication, authorization, secure defaults, and policy review.
+Focused guidance for authentication, authorization, policy review, and secure-by-default application design.
+
+## Overview
+
+- Total curated skills: 7
+- Highest-ranked entry: `firebase/agent-skills@firebase-auth-basics`
+- Coverage: ranks 37 through 43
 
 ## Skills
 
-- [firebase-auth-basics](./firebase-auth-basics/README.md) - Rank 37, 81.4K installs
-- [convex-setup-auth](./convex-setup-auth/README.md) - Rank 38, 65.8K installs
-- [better-auth-best-practices](./better-auth-best-practices/README.md) - Rank 39, 61.2K installs
-- [firebase-security-rules-auditor](./firebase-security-rules-auditor/README.md) - Rank 40, 46K installs
-- [email-and-password-best-practices](./email-and-password-best-practices/README.md) - Rank 41, 20.8K installs
-- [firestore-security-rules-auditor](./firestore-security-rules-auditor/README.md) - Rank 42, 20.3K installs
-- [better-auth-security-best-practices](./better-auth-security-best-practices/README.md) - Rank 43, 16.1K installs
+| Rank | Skill | Installs | Source |
+| ---: | --- | ---: | --- |
+| 37 | [firebase-auth-basics](./firebase-auth-basics/README.md) | 81.4K | `firebase/agent-skills` |
+| 38 | [convex-setup-auth](./convex-setup-auth/README.md) | 65.8K | `get-convex/agent-skills` |
+| 39 | [better-auth-best-practices](./better-auth-best-practices/README.md) | 61.2K | `better-auth/skills` |
+| 40 | [firebase-security-rules-auditor](./firebase-security-rules-auditor/README.md) | 46K | `firebase/agent-skills` |
+| 41 | [email-and-password-best-practices](./email-and-password-best-practices/README.md) | 20.8K | `better-auth/skills` |
+| 42 | [firestore-security-rules-auditor](./firestore-security-rules-auditor/README.md) | 20.3K | `firebase/agent-skills` |
+| 43 | [better-auth-security-best-practices](./better-auth-security-best-practices/README.md) | 16.1K | `better-auth/skills` |
+
+## Use This Section When
+
+- You need skills that strengthen authentication flows, authorization rules, or secure application defaults.
+- You want to compare related skills without scanning the full top-50 list.
+- You need a consistent shortlisting surface before choosing which upstream skill to install.

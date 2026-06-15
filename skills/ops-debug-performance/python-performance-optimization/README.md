@@ -1,22 +1,31 @@
 # python-performance-optimization
 
-**Rank:** 47
-**Category:** Ops, Debugging, Performance, and Reliability
-**Source:** `wshobson/agents`
-**Install Count:** 26.3K
-
-## Why It Is Included
-
 Practical for teams scaling Python services or data-heavy code paths.
 
-## Install
+## Snapshot
+
+| Field | Value |
+| --- | --- |
+| Rank | 47 |
+| Category | [Ops, Debugging, Performance, and Reliability](../README.md) |
+| Source | `wshobson/agents` |
+| Install Count | 26.3K |
+| Catalog Entry | `wshobson/agents@python-performance-optimization` |
+
+## Why It Stands Out
+
+- Practical for teams scaling Python services or data-heavy code paths.
+- It is part of a curated development-first shortlist rather than a broad general marketplace dump.
+- The entry is structured for fast scanning, repeatable installation, and future automation.
+
+## Install Command
 
 ```bash
 npx skills add wshobson/agents@python-performance-optimization
 ```
 
-## Notes
+## Catalog Notes
 
-- This folder is an original catalog entry, not a copied upstream skill package.
-- Install and maintain the real skill from its original source.
-- Use the JSON file in this folder if you want to build tooling around this catalog.
+- This page is an original profile created for this repository.
+- It is intended to help with discovery, evaluation, and organization.
+- The actual skill package should be installed and updated from the original source repository.

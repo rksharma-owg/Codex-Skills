@@ -1,22 +1,31 @@
 # expo-tailwind-setup
 
-**Rank:** 7
-**Category:** Frontend and UI Engineering
-**Source:** `expo/skills`
-**Install Count:** 36.2K
-
-## Why It Is Included
-
 Useful when teams need clean Tailwind setup in Expo-based apps.
 
-## Install
+## Snapshot
+
+| Field | Value |
+| --- | --- |
+| Rank | 7 |
+| Category | [Frontend and UI Engineering](../README.md) |
+| Source | `expo/skills` |
+| Install Count | 36.2K |
+| Catalog Entry | `expo/skills@expo-tailwind-setup` |
+
+## Why It Stands Out
+
+- Useful when teams need clean Tailwind setup in Expo-based apps.
+- It is part of a curated development-first shortlist rather than a broad general marketplace dump.
+- The entry is structured for fast scanning, repeatable installation, and future automation.
+
+## Install Command
 
 ```bash
 npx skills add expo/skills@expo-tailwind-setup
 ```
 
-## Notes
+## Catalog Notes
 
-- This folder is an original catalog entry, not a copied upstream skill package.
-- Install and maintain the real skill from its original source.
-- Use the JSON file in this folder if you want to build tooling around this catalog.
+- This page is an original profile created for this repository.
+- It is intended to help with discovery, evaluation, and organization.
+- The actual skill package should be installed and updated from the original source repository.

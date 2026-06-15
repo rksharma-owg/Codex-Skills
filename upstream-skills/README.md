@@ -1,19 +1,21 @@
 # Upstream Skills
 
-This folder contains preserved upstream skill packages that were copied into the repository separately from the curated catalog.
+This section contains preserved skill packages copied from upstream repositories when an actual package import was explicitly requested.
 
-## Why this folder exists
+## Design Principle
 
-- The `skills/` tree in this repository is an original catalog and organization layer.
-- Some requests call for bringing in an actual upstream skill package.
-- Those packages are kept here so attribution, source context, and original structure stay clear.
+- Curated summaries belong in `skills/`.
+- Original package imports belong in `upstream-skills/`.
+- Attribution, licensing clues, and original folder structure stay visible here.
 
-## Included packages
+## Included Packages
 
-- [application-security](./application-security/SOURCE.md)
+| Package | Source Notes |
+| --- | --- |
+| [application-security](./application-security/SOURCE.md) | Preserved import from `oakoss/agent-skills`. |
 
-## Handling rules
+## Handling Guidance
 
-- Keep original source files intact unless there is a clear reason to patch them.
-- Preserve source attribution and license information when present.
-- Do not merge these packages into the curated summaries in `skills/`.
+- Keep imported package contents intact unless a maintenance task explicitly requires a patch.
+- Preserve author, license, and upstream source context wherever it is available.
+- Avoid blending preserved upstream packages into the curated summaries in `skills/`.

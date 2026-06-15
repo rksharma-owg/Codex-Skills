@@ -1,25 +1,27 @@
 # application-security
 
-This folder preserves the upstream skill package as requested.
+Preserved upstream package for application-level security guidance and reference material.
 
-## Source
+## Source Record
 
-- Repository: `oakoss/agent-skills`
-- Original path: `skills/application-security`
-- Installed from: `https://github.com/oakoss/agent-skills`
-- Imported on: June 14, 2026
+| Field | Value |
+| --- | --- |
+| Repository | `oakoss/agent-skills` |
+| Original Path | `skills/application-security` |
+| Imported From | `https://github.com/oakoss/agent-skills` |
+| Imported On | June 14, 2026 |
 
-## License and attribution
+## Attribution and License
 
 - The upstream `SKILL.md` frontmatter declares `license: MIT`.
 - The upstream package metadata declares `author: oakoss`.
-- This preserved copy keeps the original structure and reference documents.
+- This directory keeps the original content layout and supporting reference documents.
 
-## Contents
+## Included Files
 
 - `SKILL.md`
 - `references/`
 
-## Note
+## Classification
 
-This is a preserved upstream package, not a rewritten catalog entry.
+This directory is a preserved upstream import, not a rewritten catalog profile.

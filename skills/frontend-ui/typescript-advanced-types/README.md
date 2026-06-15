@@ -1,22 +1,31 @@
 # typescript-advanced-types
 
-**Rank:** 10
-**Category:** Frontend and UI Engineering
-**Source:** `wshobson/agents`
-**Install Count:** 47.2K
-
-## Why It Is Included
-
 Strong utility skill for safer APIs and better type-level design.
 
-## Install
+## Snapshot
+
+| Field | Value |
+| --- | --- |
+| Rank | 10 |
+| Category | [Frontend and UI Engineering](../README.md) |
+| Source | `wshobson/agents` |
+| Install Count | 47.2K |
+| Catalog Entry | `wshobson/agents@typescript-advanced-types` |
+
+## Why It Stands Out
+
+- Strong utility skill for safer APIs and better type-level design.
+- It is part of a curated development-first shortlist rather than a broad general marketplace dump.
+- The entry is structured for fast scanning, repeatable installation, and future automation.
+
+## Install Command
 
 ```bash
 npx skills add wshobson/agents@typescript-advanced-types
 ```
 
-## Notes
+## Catalog Notes
 
-- This folder is an original catalog entry, not a copied upstream skill package.
-- Install and maintain the real skill from its original source.
-- Use the JSON file in this folder if you want to build tooling around this catalog.
+- This page is an original profile created for this repository.
+- It is intended to help with discovery, evaluation, and organization.
+- The actual skill package should be installed and updated from the original source repository.

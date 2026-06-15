@@ -1,12 +1,20 @@
 # Skills Library
 
-Each skill in this repository has its own folder for cleaner browsing.
+The curated library is organized by category first and by individual skill second, giving each skill a stable, dedicated folder.
 
-## Categories
+## Browse by Category
 
-- `frontend-ui`: Frontend and UI Engineering
-- `backend-platform`: Backend and Platform Development
-- `testing-qa`: Testing and QA
-- `data-persistence`: Data and Persistence
-- `security-auth`: Security and Authentication
-- `ops-debug-performance`: Ops, Debugging, Performance, and Reliability
+| Category | Skill Count | Notes |
+| --- | ---: | --- |
+| [Frontend and UI Engineering](./frontend-ui/README.md) | 10 | Patterns and guidance for product-facing engineering, interface systems, styling, and modern React-based implementation. |
+| [Backend and Platform Development](./backend-platform/README.md) | 10 | Practical references for APIs, backend structure, platform foundations, developer tooling, and service-oriented work. |
+| [Testing and QA](./testing-qa/README.md) | 8 | Coverage for automated testing, browser workflows, end-to-end quality, and test architecture decisions. |
+| [Data and Persistence](./data-persistence/README.md) | 8 | Database, schema, migration, query, and GraphQL-oriented skills for teams working with real application data. |
+| [Security and Authentication](./security-auth/README.md) | 7 | Focused guidance for authentication, authorization, policy review, and secure-by-default application design. |
+| [Ops, Debugging, Performance, and Reliability](./ops-debug-performance/README.md) | 7 | Operational support for debugging, containers, reliability, observability, and performance improvement work. |
+
+## Folder Convention
+
+- Each curated skill lives in `skills/<category>/<skill-name>/`.
+- Every skill folder includes a `README.md` for people and a `skill.json` for tooling.
+- Rank, install count, source, and install command are standardized across the library.

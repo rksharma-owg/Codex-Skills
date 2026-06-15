@@ -1,22 +1,31 @@
 # neon-postgres
 
-**Rank:** 19
-**Category:** Backend and Platform Development
-**Source:** `neondatabase/agent-skills`
-**Install Count:** 41.5K
-
-## Why It Is Included
-
 Strong option for cloud Postgres workflows and operational database work.
 
-## Install
+## Snapshot
+
+| Field | Value |
+| --- | --- |
+| Rank | 19 |
+| Category | [Backend and Platform Development](../README.md) |
+| Source | `neondatabase/agent-skills` |
+| Install Count | 41.5K |
+| Catalog Entry | `neondatabase/agent-skills@neon-postgres` |
+
+## Why It Stands Out
+
+- Strong option for cloud Postgres workflows and operational database work.
+- It is part of a curated development-first shortlist rather than a broad general marketplace dump.
+- The entry is structured for fast scanning, repeatable installation, and future automation.
+
+## Install Command
 
 ```bash
 npx skills add neondatabase/agent-skills@neon-postgres
 ```
 
-## Notes
+## Catalog Notes
 
-- This folder is an original catalog entry, not a copied upstream skill package.
-- Install and maintain the real skill from its original source.
-- Use the JSON file in this folder if you want to build tooling around this catalog.
+- This page is an original profile created for this repository.
+- It is intended to help with discovery, evaluation, and organization.
+- The actual skill package should be installed and updated from the original source repository.

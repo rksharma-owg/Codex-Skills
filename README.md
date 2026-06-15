@@ -1,37 +1,51 @@
 # Codex Skills
 
-An original, development-focused catalog of high-signal skills for day-to-day software work.
+A professionally organized library of high-signal development skills for daily engineering work.
 
-This repository does not copy third-party skill files or remove attribution from upstream authors. Instead, it curates strong skills, rewrites the summaries in original language, and points back to the official source for installation and maintenance.
+This repository combines two distinct layers:
 
-## Repository Layout
+- An original curated catalog of top development skills, rewritten for clarity and consistent organization.
+- A separate area for preserved upstream skill packages that should remain attributable to their original authors.
 
-- `catalog/top-50.md`: Ranked overview of all 50 selected skills.
-- `catalog/top-50.json`: Machine-readable version of the ranked list.
-- `skills/`: Category-based library with one folder per skill.
-- `skills/<category>/<skill>/README.md`: Human-friendly profile for a single skill.
-- `skills/<category>/<skill>/skill.json`: Structured metadata for a single skill.
-- `upstream-skills/`: Preserved upstream skill packages copied in with attribution.
+## Highlights
 
-## Categories
+- 50 curated development skills ranked using current adoption data gathered on June 14, 2026.
+- One folder per skill for consistent browsing, linking, and future automation.
+- Category landing pages for faster navigation by engineering domain.
+- Machine-readable metadata for every curated skill entry.
+- Preserved upstream imports kept separate from rewritten catalog content.
 
-- Frontend and UI engineering
-- Backend and platform development
-- Testing and QA
-- Data and persistence
-- Security and authentication
-- Ops, debugging, performance, and reliability
+## Repository Structure
 
-## Curation Rules
+| Path | Purpose |
+| --- | --- |
+| `catalog/top-50.md` | Human-readable ranked overview of the curated top 50 skills. |
+| `catalog/top-50.json` | Structured version of the ranked catalog for tooling and automation. |
+| `skills/` | Main curated library, organized by category and then by individual skill folder. |
+| `skills/<category>/<skill>/README.md` | Professional summary page for a single curated skill. |
+| `skills/<category>/<skill>/skill.json` | Structured metadata for a single curated skill. |
+| `upstream-skills/` | Preserved imports from upstream repositories, kept with attribution. |
 
-- Prioritized current install count as the closest public proxy for adoption.
-- Favored official publishers and well-known engineering sources when possible.
-- Filtered out obviously niche, low-signal, or non-development entries.
-- Rewrote descriptions to keep this repository original and easy to scan.
+## Skill Categories
 
-## Notes
+| Category | Focus |
+| --- | --- |
+| [Frontend and UI Engineering](./skills/frontend-ui/README.md) | Patterns and guidance for product-facing engineering, interface systems, styling, and modern React-based implementation. |
+| [Backend and Platform Development](./skills/backend-platform/README.md) | Practical references for APIs, backend structure, platform foundations, developer tooling, and service-oriented work. |
+| [Testing and QA](./skills/testing-qa/README.md) | Coverage for automated testing, browser workflows, end-to-end quality, and test architecture decisions. |
+| [Data and Persistence](./skills/data-persistence/README.md) | Database, schema, migration, query, and GraphQL-oriented skills for teams working with real application data. |
+| [Security and Authentication](./skills/security-auth/README.md) | Focused guidance for authentication, authorization, policy review, and secure-by-default application design. |
+| [Ops, Debugging, Performance, and Reliability](./skills/ops-debug-performance/README.md) | Operational support for debugging, containers, reliability, observability, and performance improvement work. |
 
-- Install counts in this repo were gathered on June 14, 2026.
-- Upstream skills evolve independently. Always install from the original source.
-- Each skill now has its own folder to keep browsing neat and predictable.
-- Preserved upstream imports are kept separate from the original curated catalog.
+## Editorial Standards
+
+- Prioritized install count as the most consistent public signal of real-world adoption.
+- Favored official publishers and recognizable engineering sources where possible.
+- Excluded low-signal and obviously off-topic entries from the development-focused core list.
+- Rewrote catalog descriptions to keep this repository original, neutral, and easier to review.
+
+## Important Notes
+
+- Curated entries in `skills/` are organizational summaries, not copied upstream packages.
+- Upstream packages in `upstream-skills/` are preserved separately to maintain clear attribution.
+- Original skills should always be installed and maintained from their source repositories.
