@@ -11,6 +11,7 @@ This repository does not copy third-party skill files or remove attribution from
 - `skills/`: Category-based library with one folder per skill.
 - `skills/<category>/<skill>/README.md`: Human-friendly profile for a single skill.
 - `skills/<category>/<skill>/skill.json`: Structured metadata for a single skill.
+- `upstream-skills/`: Preserved upstream skill packages copied in with attribution.
 
 ## Categories
 
@@ -33,3 +34,4 @@ This repository does not copy third-party skill files or remove attribution from
 - Install counts in this repo were gathered on June 14, 2026.
 - Upstream skills evolve independently. Always install from the original source.
 - Each skill now has its own folder to keep browsing neat and predictable.
+- Preserved upstream imports are kept separate from the original curated catalog.
