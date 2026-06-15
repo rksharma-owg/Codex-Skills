@@ -13,6 +13,10 @@ The curated library is organized by category first and by individual skill secon
 | [Security and Authentication](./security-auth/README.md) | 7 | Focused guidance for authentication, authorization, policy review, and secure-by-default application design. |
 | [Ops, Debugging, Performance, and Reliability](./ops-debug-performance/README.md) | 7 | Operational support for debugging, containers, reliability, observability, and performance improvement work. |
 
+## Additional Skill Package
+
+- [application-security](./application-security/SOURCE.md): Application security package with source notes and supporting reference material.
+
 ## Folder Convention
 
 - Each curated skill lives in `skills/<category>/<skill-name>/`.
