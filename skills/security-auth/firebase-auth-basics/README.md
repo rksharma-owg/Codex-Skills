@@ -8,7 +8,6 @@ Good baseline for everyday application authentication flows.
 | --- | --- |
 | Rank | 37 |
 | Category | [Security and Authentication](../README.md) |
-| Source | `firebase/agent-skills` |
 | Install Count | 81.4K |
 | Catalog Entry | `firebase/agent-skills@firebase-auth-basics` |
 
@@ -28,4 +27,4 @@ npx skills add firebase/agent-skills@firebase-auth-basics
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

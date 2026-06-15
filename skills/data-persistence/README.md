@@ -10,16 +10,16 @@ Database, schema, migration, query, and GraphQL-oriented skills for teams workin
 
 ## Skills
 
-| Rank | Skill | Installs | Source |
-| ---: | --- | ---: | --- |
-| 29 | [azure-postgres](./azure-postgres/README.md) | 27.8K | `microsoft/azure-skills` |
-| 30 | [postgresql-table-design](./postgresql-table-design/README.md) | 19.5K | `wshobson/agents` |
-| 31 | [database-migration](./database-migration/README.md) | 13K | `wshobson/agents` |
-| 32 | [postgresql-optimization](./postgresql-optimization/README.md) | 12.8K | `github/awesome-copilot` |
-| 33 | [postgresql-code-review](./postgresql-code-review/README.md) | 10.6K | `github/awesome-copilot` |
-| 34 | [mysql](./mysql/README.md) | 5.1K | `planetscale/database-skills` |
-| 35 | [graphql-schema](./graphql-schema/README.md) | 2.3K | `apollographql/skills` |
-| 36 | [graphql-operations](./graphql-operations/README.md) | 2.1K | `apollographql/skills` |
+| Rank | Skill | Installs |
+| ---: | --- | ---: |
+| 29 | [azure-postgres](./azure-postgres/README.md) | 27.8K |
+| 30 | [postgresql-table-design](./postgresql-table-design/README.md) | 19.5K |
+| 31 | [database-migration](./database-migration/README.md) | 13K |
+| 32 | [postgresql-optimization](./postgresql-optimization/README.md) | 12.8K |
+| 33 | [postgresql-code-review](./postgresql-code-review/README.md) | 10.6K |
+| 34 | [mysql](./mysql/README.md) | 5.1K |
+| 35 | [graphql-schema](./graphql-schema/README.md) | 2.3K |
+| 36 | [graphql-operations](./graphql-operations/README.md) | 2.1K |
 
 ## Use This Section When
 

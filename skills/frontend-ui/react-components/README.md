@@ -8,7 +8,6 @@ Helpful for repeatable component work and structured React UI output.
 | --- | --- |
 | Rank | 5 |
 | Category | [Frontend and UI Engineering](../README.md) |
-| Source | `google-labs-code/stitch-skills` |
 | Install Count | 48.6K |
 | Catalog Entry | `google-labs-code/stitch-skills@react:components` |
 
@@ -28,4 +27,4 @@ npx skills add google-labs-code/stitch-skills@react:components
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

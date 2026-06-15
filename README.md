@@ -48,4 +48,4 @@ This repository combines two distinct layers:
 
 - Curated entries in `skills/` are organizational summaries created for this repository.
 - The application security skill package lives directly in `skills/` with install guidance and reference files.
-- Original skills should always be installed and maintained from their source repositories.
+- Use the install instructions shown in each skill page when you want to add a skill.

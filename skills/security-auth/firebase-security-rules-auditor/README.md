@@ -8,7 +8,6 @@ High-value review skill for preventing policy mistakes in Firebase projects.
 | --- | --- |
 | Rank | 40 |
 | Category | [Security and Authentication](../README.md) |
-| Source | `firebase/agent-skills` |
 | Install Count | 46K |
 | Catalog Entry | `firebase/agent-skills@firebase-security-rules-auditor` |
 
@@ -28,4 +27,4 @@ npx skills add firebase/agent-skills@firebase-security-rules-auditor
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

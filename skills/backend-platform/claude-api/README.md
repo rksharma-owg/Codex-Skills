@@ -8,7 +8,6 @@ Useful reference skill for integrating and shipping against a real API surface.
 | --- | --- |
 | Rank | 12 |
 | Category | [Backend and Platform Development](../README.md) |
-| Source | `anthropics/skills` |
 | Install Count | 39.1K |
 | Catalog Entry | `anthropics/skills@claude-api` |
 
@@ -28,4 +27,4 @@ npx skills add anthropics/skills@claude-api
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

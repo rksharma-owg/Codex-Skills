@@ -8,7 +8,6 @@ Excellent day-to-day debugging process skill with broad applicability.
 | --- | --- |
 | Rank | 45 |
 | Category | [Ops, Debugging, Performance, and Reliability](../README.md) |
-| Source | `obra/superpowers` |
 | Install Count | 143.4K |
 | Catalog Entry | `obra/superpowers@systematic-debugging` |
 
@@ -28,4 +27,4 @@ npx skills add obra/superpowers@systematic-debugging
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

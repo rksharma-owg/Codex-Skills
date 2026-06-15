@@ -8,7 +8,6 @@ Practical backend-side auth handling and account workflow support.
 | --- | --- |
 | Rank | 14 |
 | Category | [Backend and Platform Development](../README.md) |
-| Source | `clerk/skills` |
 | Install Count | 12K |
 | Catalog Entry | `clerk/skills@clerk-backend-api` |
 
@@ -28,4 +27,4 @@ npx skills add clerk/skills@clerk-backend-api
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

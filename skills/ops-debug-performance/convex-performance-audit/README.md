@@ -8,7 +8,6 @@ Good reminder skill for performance reviews before systems drift.
 | --- | --- |
 | Rank | 46 |
 | Category | [Ops, Debugging, Performance, and Reliability](../README.md) |
-| Source | `get-convex/agent-skills` |
 | Install Count | 66K |
 | Catalog Entry | `get-convex/agent-skills@convex-performance-audit` |
 
@@ -28,4 +27,4 @@ npx skills add get-convex/agent-skills@convex-performance-audit
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

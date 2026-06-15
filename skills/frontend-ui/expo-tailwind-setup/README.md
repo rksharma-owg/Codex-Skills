@@ -8,7 +8,6 @@ Useful when teams need clean Tailwind setup in Expo-based apps.
 | --- | --- |
 | Rank | 7 |
 | Category | [Frontend and UI Engineering](../README.md) |
-| Source | `expo/skills` |
 | Install Count | 36.2K |
 | Catalog Entry | `expo/skills@expo-tailwind-setup` |
 
@@ -28,4 +27,4 @@ npx skills add expo/skills@expo-tailwind-setup
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

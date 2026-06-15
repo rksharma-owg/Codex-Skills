@@ -8,7 +8,6 @@ Good everyday fit for shared UI systems and maintainable Tailwind usage.
 | --- | --- |
 | Rank | 6 |
 | Category | [Frontend and UI Engineering](../README.md) |
-| Source | `wshobson/agents` |
 | Install Count | 48.4K |
 | Catalog Entry | `wshobson/agents@tailwind-design-system` |
 
@@ -28,4 +27,4 @@ npx skills add wshobson/agents@tailwind-design-system
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

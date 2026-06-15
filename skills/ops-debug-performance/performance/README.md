@@ -8,7 +8,6 @@ Good web performance lens from a trusted performance-oriented source.
 | --- | --- |
 | Rank | 49 |
 | Category | [Ops, Debugging, Performance, and Reliability](../README.md) |
-| Source | `addyosmani/web-quality-skills` |
 | Install Count | 16.8K |
 | Catalog Entry | `addyosmani/web-quality-skills@performance` |
 
@@ -28,4 +27,4 @@ npx skills add addyosmani/web-quality-skills@performance
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

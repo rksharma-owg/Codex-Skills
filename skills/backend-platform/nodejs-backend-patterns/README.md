@@ -8,7 +8,6 @@ Covers common backend service structure and maintainable Node server patterns.
 | --- | --- |
 | Rank | 11 |
 | Category | [Backend and Platform Development](../README.md) |
-| Source | `wshobson/agents` |
 | Install Count | 36.3K |
 | Catalog Entry | `wshobson/agents@nodejs-backend-patterns` |
 
@@ -28,4 +27,4 @@ npx skills add wshobson/agents@nodejs-backend-patterns
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

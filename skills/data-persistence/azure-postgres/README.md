@@ -8,7 +8,6 @@ Useful for teams operating Postgres inside Azure-heavy stacks.
 | --- | --- |
 | Rank | 29 |
 | Category | [Data and Persistence](../README.md) |
-| Source | `microsoft/azure-skills` |
 | Install Count | 27.8K |
 | Catalog Entry | `microsoft/azure-skills@azure-postgres` |
 
@@ -28,4 +27,4 @@ npx skills add microsoft/azure-skills@azure-postgres
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

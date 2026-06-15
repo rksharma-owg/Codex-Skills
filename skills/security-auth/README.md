@@ -10,15 +10,15 @@ Focused guidance for authentication, authorization, policy review, and secure-by
 
 ## Skills
 
-| Rank | Skill | Installs | Source |
-| ---: | --- | ---: | --- |
-| 37 | [firebase-auth-basics](./firebase-auth-basics/README.md) | 81.4K | `firebase/agent-skills` |
-| 38 | [convex-setup-auth](./convex-setup-auth/README.md) | 65.8K | `get-convex/agent-skills` |
-| 39 | [better-auth-best-practices](./better-auth-best-practices/README.md) | 61.2K | `better-auth/skills` |
-| 40 | [firebase-security-rules-auditor](./firebase-security-rules-auditor/README.md) | 46K | `firebase/agent-skills` |
-| 41 | [email-and-password-best-practices](./email-and-password-best-practices/README.md) | 20.8K | `better-auth/skills` |
-| 42 | [firestore-security-rules-auditor](./firestore-security-rules-auditor/README.md) | 20.3K | `firebase/agent-skills` |
-| 43 | [better-auth-security-best-practices](./better-auth-security-best-practices/README.md) | 16.1K | `better-auth/skills` |
+| Rank | Skill | Installs |
+| ---: | --- | ---: |
+| 37 | [firebase-auth-basics](./firebase-auth-basics/README.md) | 81.4K |
+| 38 | [convex-setup-auth](./convex-setup-auth/README.md) | 65.8K |
+| 39 | [better-auth-best-practices](./better-auth-best-practices/README.md) | 61.2K |
+| 40 | [firebase-security-rules-auditor](./firebase-security-rules-auditor/README.md) | 46K |
+| 41 | [email-and-password-best-practices](./email-and-password-best-practices/README.md) | 20.8K |
+| 42 | [firestore-security-rules-auditor](./firestore-security-rules-auditor/README.md) | 20.3K |
+| 43 | [better-auth-security-best-practices](./better-auth-security-best-practices/README.md) | 16.1K |
 
 ## Use This Section When
 

@@ -8,7 +8,6 @@ Useful for schema design, consistency, and long-term GraphQL health.
 | --- | --- |
 | Rank | 35 |
 | Category | [Data and Persistence](../README.md) |
-| Source | `apollographql/skills` |
 | Install Count | 2.3K |
 | Catalog Entry | `apollographql/skills@graphql-schema` |
 
@@ -28,4 +27,4 @@ npx skills add apollographql/skills@graphql-schema
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

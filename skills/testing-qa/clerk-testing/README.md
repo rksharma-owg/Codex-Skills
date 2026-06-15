@@ -8,7 +8,6 @@ Helpful when auth flows are part of the testing surface.
 | --- | --- |
 | Rank | 28 |
 | Category | [Testing and QA](../README.md) |
-| Source | `clerk/skills` |
 | Install Count | 12.1K |
 | Catalog Entry | `clerk/skills@clerk-testing` |
 
@@ -28,4 +27,4 @@ npx skills add clerk/skills@clerk-testing
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

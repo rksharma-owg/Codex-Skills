@@ -8,7 +8,6 @@ Strong guidance for schema quality, maintainability, and future growth.
 | --- | --- |
 | Rank | 30 |
 | Category | [Data and Persistence](../README.md) |
-| Source | `wshobson/agents` |
 | Install Count | 19.5K |
 | Catalog Entry | `wshobson/agents@postgresql-table-design` |
 
@@ -28,4 +27,4 @@ npx skills add wshobson/agents@postgresql-table-design
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

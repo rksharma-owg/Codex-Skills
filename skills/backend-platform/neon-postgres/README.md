@@ -8,7 +8,6 @@ Strong option for cloud Postgres workflows and operational database work.
 | --- | --- |
 | Rank | 19 |
 | Category | [Backend and Platform Development](../README.md) |
-| Source | `neondatabase/agent-skills` |
 | Install Count | 41.5K |
 | Catalog Entry | `neondatabase/agent-skills@neon-postgres` |
 
@@ -28,4 +27,4 @@ npx skills add neondatabase/agent-skills@neon-postgres
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

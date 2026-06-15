@@ -10,16 +10,16 @@ Coverage for automated testing, browser workflows, end-to-end quality, and test 
 
 ## Skills
 
-| Rank | Skill | Installs | Source |
-| ---: | --- | ---: | --- |
-| 21 | [webapp-testing](./webapp-testing/README.md) | 95.5K | `anthropics/skills` |
-| 22 | [playwright-cli](./playwright-cli/README.md) | 57.1K | `microsoft/playwright-cli` |
-| 23 | [playwright-best-practices](./playwright-best-practices/README.md) | 50.1K | `currents-dev/playwright-best-practices-skill` |
-| 24 | [python-testing-patterns](./python-testing-patterns/README.md) | 24.2K | `wshobson/agents` |
-| 25 | [e2e-testing-patterns](./e2e-testing-patterns/README.md) | 17.9K | `wshobson/agents` |
-| 26 | [javascript-testing-patterns](./javascript-testing-patterns/README.md) | 15K | `wshobson/agents` |
-| 27 | [playwright-generate-test](./playwright-generate-test/README.md) | 13.3K | `github/awesome-copilot` |
-| 28 | [clerk-testing](./clerk-testing/README.md) | 12.1K | `clerk/skills` |
+| Rank | Skill | Installs |
+| ---: | --- | ---: |
+| 21 | [webapp-testing](./webapp-testing/README.md) | 95.5K |
+| 22 | [playwright-cli](./playwright-cli/README.md) | 57.1K |
+| 23 | [playwright-best-practices](./playwright-best-practices/README.md) | 50.1K |
+| 24 | [python-testing-patterns](./python-testing-patterns/README.md) | 24.2K |
+| 25 | [e2e-testing-patterns](./e2e-testing-patterns/README.md) | 17.9K |
+| 26 | [javascript-testing-patterns](./javascript-testing-patterns/README.md) | 15K |
+| 27 | [playwright-generate-test](./playwright-generate-test/README.md) | 13.3K |
+| 28 | [clerk-testing](./clerk-testing/README.md) | 12.1K |
 
 ## Use This Section When
 

@@ -8,7 +8,6 @@ Strong choice for teams using Convex and needing auth wired correctly early.
 | --- | --- |
 | Rank | 38 |
 | Category | [Security and Authentication](../README.md) |
-| Source | `get-convex/agent-skills` |
 | Install Count | 65.8K |
 | Catalog Entry | `get-convex/agent-skills@convex-setup-auth` |
 
@@ -28,4 +27,4 @@ npx skills add get-convex/agent-skills@convex-setup-auth
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

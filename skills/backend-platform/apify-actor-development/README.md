@@ -8,7 +8,6 @@ Good fit for teams building automation or data workflows as maintained actors.
 | --- | --- |
 | Rank | 17 |
 | Category | [Backend and Platform Development](../README.md) |
-| Source | `apify/agent-skills` |
 | Install Count | 8.3K |
 | Catalog Entry | `apify/agent-skills@apify-actor-development` |
 
@@ -28,4 +27,4 @@ npx skills add apify/agent-skills@apify-actor-development
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

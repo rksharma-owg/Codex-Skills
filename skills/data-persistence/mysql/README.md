@@ -8,7 +8,6 @@ Solid MySQL-focused choice for teams outside the Postgres path.
 | --- | --- |
 | Rank | 34 |
 | Category | [Data and Persistence](../README.md) |
-| Source | `planetscale/database-skills` |
 | Install Count | 5.1K |
 | Catalog Entry | `planetscale/database-skills@mysql` |
 
@@ -28,4 +27,4 @@ npx skills add planetscale/database-skills@mysql
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

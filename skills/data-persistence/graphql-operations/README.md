@@ -8,7 +8,6 @@ Helps with operational GraphQL usage and query/mutation discipline.
 | --- | --- |
 | Rank | 36 |
 | Category | [Data and Persistence](../README.md) |
-| Source | `apollographql/skills` |
 | Install Count | 2.1K |
 | Catalog Entry | `apollographql/skills@graphql-operations` |
 
@@ -28,4 +27,4 @@ npx skills add apollographql/skills@graphql-operations
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

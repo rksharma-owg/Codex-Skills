@@ -10,15 +10,15 @@ Operational support for debugging, containers, reliability, observability, and p
 
 ## Skills
 
-| Rank | Skill | Installs | Source |
-| ---: | --- | ---: | --- |
-| 44 | [azure-kubernetes](./azure-kubernetes/README.md) | 216.9K | `microsoft/azure-skills` |
-| 45 | [systematic-debugging](./systematic-debugging/README.md) | 143.4K | `obra/superpowers` |
-| 46 | [convex-performance-audit](./convex-performance-audit/README.md) | 66K | `get-convex/agent-skills` |
-| 47 | [python-performance-optimization](./python-performance-optimization/README.md) | 26.3K | `wshobson/agents` |
-| 48 | [docker-expert](./docker-expert/README.md) | 19.6K | `sickn33/antigravity-awesome-skills` |
-| 49 | [performance](./performance/README.md) | 16.8K | `addyosmani/web-quality-skills` |
-| 50 | [multi-stage-dockerfile](./multi-stage-dockerfile/README.md) | 15.6K | `github/awesome-copilot` |
+| Rank | Skill | Installs |
+| ---: | --- | ---: |
+| 44 | [azure-kubernetes](./azure-kubernetes/README.md) | 216.9K |
+| 45 | [systematic-debugging](./systematic-debugging/README.md) | 143.4K |
+| 46 | [convex-performance-audit](./convex-performance-audit/README.md) | 66K |
+| 47 | [python-performance-optimization](./python-performance-optimization/README.md) | 26.3K |
+| 48 | [docker-expert](./docker-expert/README.md) | 19.6K |
+| 49 | [performance](./performance/README.md) | 16.8K |
+| 50 | [multi-stage-dockerfile](./multi-stage-dockerfile/README.md) | 15.6K |
 
 ## Use This Section When
 

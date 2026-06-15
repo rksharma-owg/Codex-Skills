@@ -8,7 +8,6 @@ Broad, practical starting point for application-level testing work.
 | --- | --- |
 | Rank | 21 |
 | Category | [Testing and QA](../README.md) |
-| Source | `anthropics/skills` |
 | Install Count | 95.5K |
 | Catalog Entry | `anthropics/skills@webapp-testing` |
 
@@ -28,4 +27,4 @@ npx skills add anthropics/skills@webapp-testing
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

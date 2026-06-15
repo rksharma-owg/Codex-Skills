@@ -8,7 +8,6 @@ Strong default for production-minded frontend design and UI decision-making.
 | --- | --- |
 | Rank | 1 |
 | Category | [Frontend and UI Engineering](../README.md) |
-| Source | `anthropics/skills` |
 | Install Count | 544.7K |
 | Catalog Entry | `anthropics/skills@frontend-design` |
 
@@ -28,4 +27,4 @@ npx skills add anthropics/skills@frontend-design
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

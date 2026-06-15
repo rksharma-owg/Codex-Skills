@@ -8,7 +8,6 @@ Strong utility skill for safer APIs and better type-level design.
 | --- | --- |
 | Rank | 10 |
 | Category | [Frontend and UI Engineering](../README.md) |
-| Source | `wshobson/agents` |
 | Install Count | 47.2K |
 | Catalog Entry | `wshobson/agents@typescript-advanced-types` |
 
@@ -28,4 +27,4 @@ npx skills add wshobson/agents@typescript-advanced-types
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

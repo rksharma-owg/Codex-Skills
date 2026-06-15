@@ -8,7 +8,6 @@ Speeds up Python-based tool and MCP server scaffolding.
 | --- | --- |
 | Rank | 15 |
 | Category | [Backend and Platform Development](../README.md) |
-| Source | `github/awesome-copilot` |
 | Install Count | 9.7K |
 | Catalog Entry | `github/awesome-copilot@python-mcp-server-generator` |
 
@@ -28,4 +27,4 @@ npx skills add github/awesome-copilot@python-mcp-server-generator
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

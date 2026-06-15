@@ -8,7 +8,6 @@ Excellent baseline for Postgres-backed product development.
 | --- | --- |
 | Rank | 18 |
 | Category | [Backend and Platform Development](../README.md) |
-| Source | `supabase/agent-skills` |
 | Install Count | 231.4K |
 | Catalog Entry | `supabase/agent-skills@supabase-postgres-best-practices` |
 
@@ -28,4 +27,4 @@ npx skills add supabase/agent-skills@supabase-postgres-best-practices
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

@@ -8,7 +8,6 @@ Good companion for Firestore-heavy applications with fine-grained rules.
 | --- | --- |
 | Rank | 42 |
 | Category | [Security and Authentication](../README.md) |
-| Source | `firebase/agent-skills` |
 | Install Count | 20.3K |
 | Catalog Entry | `firebase/agent-skills@firestore-security-rules-auditor` |
 
@@ -28,4 +27,4 @@ npx skills add firebase/agent-skills@firestore-security-rules-auditor
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

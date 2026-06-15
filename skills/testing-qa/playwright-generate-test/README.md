@@ -8,7 +8,6 @@ Good accelerator for creating test coverage from user journeys.
 | --- | --- |
 | Rank | 27 |
 | Category | [Testing and QA](../README.md) |
-| Source | `github/awesome-copilot` |
 | Install Count | 13.3K |
 | Catalog Entry | `github/awesome-copilot@playwright-generate-test` |
 
@@ -28,4 +27,4 @@ npx skills add github/awesome-copilot@playwright-generate-test
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

@@ -8,7 +8,6 @@ Adds disciplined Playwright habits beyond basic script generation.
 | --- | --- |
 | Rank | 23 |
 | Category | [Testing and QA](../README.md) |
-| Source | `currents-dev/playwright-best-practices-skill` |
 | Install Count | 50.1K |
 | Catalog Entry | `currents-dev/playwright-best-practices-skill@playwright-best-practices` |
 
@@ -28,4 +27,4 @@ npx skills add currents-dev/playwright-best-practices-skill@playwright-best-prac
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

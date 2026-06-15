@@ -8,7 +8,6 @@ High-value choice for browser testing and repeatable automation workflows.
 | --- | --- |
 | Rank | 22 |
 | Category | [Testing and QA](../README.md) |
-| Source | `microsoft/playwright-cli` |
 | Install Count | 57.1K |
 | Catalog Entry | `microsoft/playwright-cli@playwright-cli` |
 
@@ -28,4 +27,4 @@ npx skills add microsoft/playwright-cli@playwright-cli
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

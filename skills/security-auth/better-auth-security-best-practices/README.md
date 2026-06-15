@@ -8,7 +8,6 @@ Reinforces safe defaults and security hygiene across auth flows.
 | --- | --- |
 | Rank | 43 |
 | Category | [Security and Authentication](../README.md) |
-| Source | `better-auth/skills` |
 | Install Count | 16.1K |
 | Catalog Entry | `better-auth/skills@better-auth-security-best-practices` |
 
@@ -28,4 +27,4 @@ npx skills add better-auth/skills@better-auth-security-best-practices
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

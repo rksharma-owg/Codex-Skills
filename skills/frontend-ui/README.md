@@ -10,18 +10,18 @@ Patterns and guidance for product-facing engineering, interface systems, styling
 
 ## Skills
 
-| Rank | Skill | Installs | Source |
-| ---: | --- | ---: | --- |
-| 1 | [frontend-design](./frontend-design/README.md) | 544.7K | `anthropics/skills` |
-| 2 | [vercel-react-best-practices](./vercel-react-best-practices/README.md) | 476K | `vercel-labs/agent-skills` |
-| 3 | [vercel-react-native-skills](./vercel-react-native-skills/README.md) | 142.2K | `vercel-labs/agent-skills` |
-| 4 | [vercel-react-view-transitions](./vercel-react-view-transitions/README.md) | 57.2K | `vercel-labs/agent-skills` |
-| 5 | [react:components](./react-components/README.md) | 48.6K | `google-labs-code/stitch-skills` |
-| 6 | [tailwind-design-system](./tailwind-design-system/README.md) | 48.4K | `wshobson/agents` |
-| 7 | [expo-tailwind-setup](./expo-tailwind-setup/README.md) | 36.2K | `expo/skills` |
-| 8 | [nextjs-app-router-patterns](./nextjs-app-router-patterns/README.md) | 21.1K | `wshobson/agents` |
-| 9 | [clerk-nextjs-patterns](./clerk-nextjs-patterns/README.md) | 17.4K | `clerk/skills` |
-| 10 | [typescript-advanced-types](./typescript-advanced-types/README.md) | 47.2K | `wshobson/agents` |
+| Rank | Skill | Installs |
+| ---: | --- | ---: |
+| 1 | [frontend-design](./frontend-design/README.md) | 544.7K |
+| 2 | [vercel-react-best-practices](./vercel-react-best-practices/README.md) | 476K |
+| 3 | [vercel-react-native-skills](./vercel-react-native-skills/README.md) | 142.2K |
+| 4 | [vercel-react-view-transitions](./vercel-react-view-transitions/README.md) | 57.2K |
+| 5 | [react:components](./react-components/README.md) | 48.6K |
+| 6 | [tailwind-design-system](./tailwind-design-system/README.md) | 48.4K |
+| 7 | [expo-tailwind-setup](./expo-tailwind-setup/README.md) | 36.2K |
+| 8 | [nextjs-app-router-patterns](./nextjs-app-router-patterns/README.md) | 21.1K |
+| 9 | [clerk-nextjs-patterns](./clerk-nextjs-patterns/README.md) | 17.4K |
+| 10 | [typescript-advanced-types](./typescript-advanced-types/README.md) | 47.2K |
 
 ## Use This Section When
 

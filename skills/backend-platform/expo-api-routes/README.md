@@ -8,7 +8,6 @@ Good for full-stack Expo apps with server logic living close to the product.
 | --- | --- |
 | Rank | 13 |
 | Category | [Backend and Platform Development](../README.md) |
-| Source | `expo/skills` |
 | Install Count | 32.7K |
 | Catalog Entry | `expo/skills@expo-api-routes` |
 
@@ -28,4 +27,4 @@ npx skills add expo/skills@expo-api-routes
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

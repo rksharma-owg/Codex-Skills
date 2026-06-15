@@ -8,7 +8,6 @@ Useful when building TypeScript-first internal tools or assistants.
 | --- | --- |
 | Rank | 16 |
 | Category | [Backend and Platform Development](../README.md) |
-| Source | `github/awesome-copilot` |
 | Install Count | 10.6K |
 | Catalog Entry | `github/awesome-copilot@typescript-mcp-server-generator` |
 
@@ -28,4 +27,4 @@ npx skills add github/awesome-copilot@typescript-mcp-server-generator
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

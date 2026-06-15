@@ -8,7 +8,6 @@ Practical for JS apps where test quality often drifts over time.
 | --- | --- |
 | Rank | 26 |
 | Category | [Testing and QA](../README.md) |
-| Source | `wshobson/agents` |
 | Install Count | 15K |
 | Catalog Entry | `wshobson/agents@javascript-testing-patterns` |
 
@@ -28,4 +27,4 @@ npx skills add wshobson/agents@javascript-testing-patterns
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

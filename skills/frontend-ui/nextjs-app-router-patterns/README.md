@@ -8,7 +8,6 @@ Solid choice for modern Next.js project structure and routing patterns.
 | --- | --- |
 | Rank | 8 |
 | Category | [Frontend and UI Engineering](../README.md) |
-| Source | `wshobson/agents` |
 | Install Count | 21.1K |
 | Catalog Entry | `wshobson/agents@nextjs-app-router-patterns` |
 
@@ -28,4 +27,4 @@ npx skills add wshobson/agents@nextjs-app-router-patterns
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

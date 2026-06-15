@@ -8,7 +8,6 @@ Good discipline layer for safer change management in live systems.
 | --- | --- |
 | Rank | 31 |
 | Category | [Data and Persistence](../README.md) |
-| Source | `wshobson/agents` |
 | Install Count | 13K |
 | Catalog Entry | `wshobson/agents@database-migration` |
 
@@ -28,4 +27,4 @@ npx skills add wshobson/agents@database-migration
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

@@ -8,7 +8,6 @@ Helps keep container builds smaller, cleaner, and more production-ready.
 | --- | --- |
 | Rank | 50 |
 | Category | [Ops, Debugging, Performance, and Reliability](../README.md) |
-| Source | `github/awesome-copilot` |
 | Install Count | 15.6K |
 | Catalog Entry | `github/awesome-copilot@multi-stage-dockerfile` |
 
@@ -28,4 +27,4 @@ npx skills add github/awesome-copilot@multi-stage-dockerfile
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

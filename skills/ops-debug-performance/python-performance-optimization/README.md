@@ -8,7 +8,6 @@ Practical for teams scaling Python services or data-heavy code paths.
 | --- | --- |
 | Rank | 47 |
 | Category | [Ops, Debugging, Performance, and Reliability](../README.md) |
-| Source | `wshobson/agents` |
 | Install Count | 26.3K |
 | Catalog Entry | `wshobson/agents@python-performance-optimization` |
 
@@ -28,4 +27,4 @@ npx skills add wshobson/agents@python-performance-optimization
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.

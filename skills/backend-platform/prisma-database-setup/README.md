@@ -8,7 +8,6 @@ Useful for teams standardizing schema-driven app development.
 | --- | --- |
 | Rank | 20 |
 | Category | [Backend and Platform Development](../README.md) |
-| Source | `prisma/skills` |
 | Install Count | 11.9K |
 | Catalog Entry | `prisma/skills@prisma-database-setup` |
 
@@ -28,4 +27,4 @@ npx skills add prisma/skills@prisma-database-setup
 
 - This page is an original profile created for this repository.
 - It is intended to help with discovery, evaluation, and organization.
-- The actual skill package should be installed and updated from the original source repository.
+- Use the install command above to add this skill quickly.
