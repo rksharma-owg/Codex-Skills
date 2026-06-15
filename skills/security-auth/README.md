@@ -24,4 +24,4 @@ Focused guidance for authentication, authorization, policy review, and secure-by
 
 - You need skills that strengthen authentication flows, authorization rules, or secure application defaults.
 - You want to compare related skills without scanning the full top-50 list.
-- You need a consistent shortlisting surface before choosing which upstream skill to install.
+- You need a consistent shortlisting surface before choosing which skill package to use.

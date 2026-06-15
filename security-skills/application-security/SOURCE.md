@@ -1,6 +1,6 @@
 # application-security
 
-Preserved upstream package for application-level security guidance and reference material.
+Dedicated security skill package for application-level security guidance and reference material.
 
 ## Source Record
 
@@ -13,8 +13,8 @@ Preserved upstream package for application-level security guidance and reference
 
 ## Attribution and License
 
-- The upstream `SKILL.md` frontmatter declares `license: MIT`.
-- The upstream package metadata declares `author: oakoss`.
+- The `SKILL.md` frontmatter declares `license: MIT`.
+- The package metadata declares `author: oakoss`.
 - This directory keeps the original content layout and supporting reference documents.
 
 ## Included Files
@@ -24,4 +24,4 @@ Preserved upstream package for application-level security guidance and reference
 
 ## Classification
 
-This directory is a preserved upstream import, not a rewritten catalog profile.
+This directory is a dedicated security skill package, separate from the rewritten catalog profiles.

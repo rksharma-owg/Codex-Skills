@@ -24,4 +24,4 @@ Operational support for debugging, containers, reliability, observability, and p
 
 - You are working on debugging, reliability, container workflows, observability, or performance tuning.
 - You want to compare related skills without scanning the full top-50 list.
-- You need a consistent shortlisting surface before choosing which upstream skill to install.
+- You need a consistent shortlisting surface before choosing which skill package to use.

@@ -27,4 +27,4 @@ Practical references for APIs, backend structure, platform foundations, develope
 
 - You are selecting skills for APIs, services, platform tooling, or backend implementation patterns.
 - You want to compare related skills without scanning the full top-50 list.
-- You need a consistent shortlisting surface before choosing which upstream skill to install.
+- You need a consistent shortlisting surface before choosing which skill package to use.

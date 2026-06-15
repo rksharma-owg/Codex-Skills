@@ -25,4 +25,4 @@ Coverage for automated testing, browser workflows, end-to-end quality, and test 
 
 - You need structured help for test design, browser automation, or broader quality engineering workflows.
 - You want to compare related skills without scanning the full top-50 list.
-- You need a consistent shortlisting surface before choosing which upstream skill to install.
+- You need a consistent shortlisting surface before choosing which skill package to use.

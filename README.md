@@ -5,7 +5,7 @@ A professionally organized library of high-signal development skills for daily e
 This repository combines two distinct layers:
 
 - An original curated catalog of top development skills, rewritten for clarity and consistent organization.
-- A separate area for preserved upstream skill packages that should remain attributable to their original authors.
+- A separate area for preserved security skill packages with source notes and supporting files.
 
 ## Highlights
 
@@ -13,7 +13,7 @@ This repository combines two distinct layers:
 - One folder per skill for consistent browsing, linking, and future automation.
 - Category landing pages for faster navigation by engineering domain.
 - Machine-readable metadata for every curated skill entry.
-- Preserved upstream imports kept separate from rewritten catalog content.
+- Dedicated security skill packages kept separate from rewritten catalog content.
 
 ## Repository Structure
 
@@ -24,7 +24,7 @@ This repository combines two distinct layers:
 | `skills/` | Main curated library, organized by category and then by individual skill folder. |
 | `skills/<category>/<skill>/README.md` | Professional summary page for a single curated skill. |
 | `skills/<category>/<skill>/skill.json` | Structured metadata for a single curated skill. |
-| `upstream-skills/` | Preserved imports from upstream repositories, kept with attribution. |
+| `security-skills/` | Dedicated security skill packages with source notes and supporting files. |
 
 ## Skill Categories
 
@@ -46,6 +46,6 @@ This repository combines two distinct layers:
 
 ## Important Notes
 
-- Curated entries in `skills/` are organizational summaries, not copied upstream packages.
-- Upstream packages in `upstream-skills/` are preserved separately to maintain clear attribution.
+- Curated entries in `skills/` are organizational summaries created for this repository.
+- Security-focused packaged skills in `security-skills/` are kept in their own section with source notes.
 - Original skills should always be installed and maintained from their source repositories.
