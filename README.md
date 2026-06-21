@@ -147,11 +147,4 @@ python scripts/build_catalog.py
 
 MIT — see [LICENSE](./LICENSE). Use these skills freely in personal, commercial, or open-source projects.
 
-## 🤝 Contributors
-
-| | Contributor | Role |
-|---|-------------|------|
-| ![@rksharma-owg]| [@rksharma-owg](https://github.com/rksharma-owg) | Maintainer |
-
-
 Issues and PRs welcome on [GitHub](https://github.com/rksharma-owg/Codex-Skills).
