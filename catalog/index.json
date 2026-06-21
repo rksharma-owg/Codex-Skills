@@ -1,0 +1,1772 @@
+{
+  "name": "Codex Agent Skills",
+  "version": "2.0.0",
+  "description": "A curated library of production-ready Codex agent skills for developers, security engineers, AI builders, DevOps teams, and automation workflows.",
+  "total_skills": 123,
+  "categories": [
+    {
+      "id": "cybersecurity",
+      "title": "Cybersecurity",
+      "icon": "\ud83d\udee1\ufe0f",
+      "tagline": "Find, triage, and fix exploitable vulnerabilities across code, containers, and infrastructure.",
+      "capabilities": [
+        "vulnerability hunting",
+        "secret detection",
+        "SAST triage",
+        "OWASP Top 10",
+        "runtime defense"
+      ],
+      "skill_count": 15,
+      "skills": [
+        {
+          "id": "authz-bypass-finder",
+          "name": "Authz Bypass Finder",
+          "difficulty": "Intermediate",
+          "tags": [
+            "cwe",
+            "cybersecurity",
+            "jwt",
+            "mtls",
+            "oauth",
+            "owasp",
+            "pci",
+            "rds",
+            "tls"
+          ],
+          "summary": "This Codex skill detects authorization (authz) bypass vulnerabilities \u2014 broken object-level authorization (BOLA/IDOR), broken function-level authorization (BFLA), missing tenant isolation in multi-tenant SaaS, and forced browsing to admin endpoints.",
+          "file": "skills/cybersecurity/authz-bypass-finder.md"
+        },
+        {
+          "id": "crypto-usage-reviewer",
+          "name": "Crypto Usage Reviewer",
+          "difficulty": "Intermediate",
+          "tags": [
+            "argo",
+            "csp",
+            "cwe",
+            "cybersecurity",
+            "ecr",
+            "hipaa",
+            "nist",
+            "owasp",
+            "pci",
+            "rds"
+          ],
+          "summary": "This Codex skill audits cryptographic usage in source code for weak algorithms, insecure modes, hardcoded keys, custom crypto, and non-compliant random number generation.",
+          "file": "skills/cybersecurity/crypto-usage-reviewer.md"
+        },
+        {
+          "id": "dependency-vulnerability-auditor",
+          "name": "Dependency Vulnerability Auditor",
+          "difficulty": "Beginner",
+          "tags": [
+            "argo",
+            "cis",
+            "cybersecurity",
+            "github-actions",
+            "jest",
+            "nist",
+            "pci",
+            "pytest",
+            "soc-2",
+            "trivy"
+          ],
+          "summary": "This Codex skill audits third-party dependencies for known vulnerabilities (CVEs and GHSA advisories), end-of-life packages, and risky transitive pulls.",
+          "file": "skills/cybersecurity/dependency-vulnerability-auditor.md"
+        },
+        {
+          "id": "deserialization-risk-finder",
+          "name": "Deserialization Risk Finder",
+          "difficulty": "Intermediate",
+          "tags": [
+            "cwe",
+            "cybersecurity",
+            "owasp",
+            "pci",
+            "soc-2"
+          ],
+          "summary": "This Codex skill detects insecure deserialization vulnerabilities across Java, .NET, Python, Ruby, PHP, and Node.js codebases \u2014 including the well-known gadget-chain classes (Java `ObjectInputStream`, .NET `BinaryFormatter`, Python `pickle`, Ruby `Marshal`, PHP `unserialize`, Node.js `node-serialize`).",
+          "file": "skills/cybersecurity/deserialization-risk-finder.md"
+        },
+        {
+          "id": "docker-image-scanner",
+          "name": "Docker Image Scanner",
+          "difficulty": "Intermediate",
+          "tags": [
+            "cis",
+            "cwe",
+            "cybersecurity",
+            "docker",
+            "ecr",
+            "pci",
+            "soc-2",
+            "trivy"
+          ],
+          "summary": "This Codex skill scans container images for OS-package CVEs, misconfigurations, exposed secrets, risky defaults, and bloated layers that increase attack surface.",
+          "file": "skills/cybersecurity/docker-image-scanner.md"
+        },
+        {
+          "id": "iac-misconfig-detector",
+          "name": "IaC Misconfig Detector",
+          "difficulty": "Intermediate",
+          "tags": [
+            "checkov",
+            "cis",
+            "csp",
+            "cwe",
+            "cybersecurity",
+            "helm",
+            "iam",
+            "iso-27001",
+            "kubernetes",
+            "nist"
+          ],
+          "summary": "This Codex skill detects misconfigurations in Infrastructure-as-Code (Terraform, CloudFormation, Pulumi, Helm, Kustomize, ARM, Bicep, Ansible, Serverless Framework) before they reach the cloud.",
+          "file": "skills/cybersecurity/iac-misconfig-detector.md"
+        },
+        {
+          "id": "jwt-validator",
+          "name": "JWT Validator",
+          "difficulty": "Intermediate",
+          "tags": [
+            "cwe",
+            "cybersecurity",
+            "jwt",
+            "vault"
+          ],
+          "summary": "This Codex skill audits JSON Web Token (JWT) issuance, validation, and usage for the well-known classes of JWT vulnerabilities: `alg: none` acceptance, symmetric/asymmetric algorithm confusion (RS256 \u2192 HS256), missing or weak signature verification, missing expiry (`exp`), missing audience (`aud`) or issuer (`iss`) checks, key rotation gaps, and insecure storage of tokens on the client.",
+          "file": "skills/cybersecurity/jwt-validator.md"
+        },
+        {
+          "id": "owasp-top-10-remediator",
+          "name": "OWASP Top 10 Remediator",
+          "difficulty": "Intermediate",
+          "tags": [
+            "asvs",
+            "csp",
+            "cwe",
+            "cybersecurity",
+            "helm",
+            "hipaa",
+            "nist",
+            "owasp",
+            "pci",
+            "semgrep"
+          ],
+          "summary": "This Codex skill maps a codebase's security findings to the OWASP Top 10 2021 categories (A01 Broken Access Control through A10 SSRF) and proposes concrete, minimal-patch remediations grounded in OWASP cheat sheets, ASVS, and NIST guidance.",
+          "file": "skills/cybersecurity/owasp-top-10-remediator.md"
+        },
+        {
+          "id": "sast-triage",
+          "name": "SAST Triage",
+          "difficulty": "Intermediate",
+          "tags": [
+            "afl",
+            "cis",
+            "codeql",
+            "cwe",
+            "cybersecurity",
+            "helm",
+            "owasp",
+            "semgrep",
+            "snyk",
+            "sonarqube"
+          ],
+          "summary": "This Codex skill triages raw Static Application Security Testing (SAST) output from tools like Semgrep, CodeQL, Snyk Code, SonarQube, and Fortify into a de-duplicated, prioritized, false-positive-aware queue that developers can actually act on.",
+          "file": "skills/cybersecurity/sast-triage.md"
+        },
+        {
+          "id": "secret-scanner",
+          "name": "Secret Scanner",
+          "difficulty": "Beginner",
+          "tags": [
+            "cwe",
+            "cybersecurity",
+            "ecr",
+            "github-actions",
+            "hipaa",
+            "jwt",
+            "pci",
+            "rds",
+            "soc-2"
+          ],
+          "summary": "This Codex skill hunts for hardcoded credentials, API keys, private keys, tokens, and other sensitive material committed to source code, config files, build artifacts, and shell history.",
+          "file": "skills/cybersecurity/secret-scanner.md"
+        },
+        {
+          "id": "secrets-in-logs-scrubber",
+          "name": "Secrets in Logs Scrubber",
+          "difficulty": "Intermediate",
+          "tags": [
+            "cwe",
+            "cybersecurity",
+            "docker",
+            "ecr",
+            "gdpr",
+            "github-actions",
+            "hipaa",
+            "jwt",
+            "pci",
+            "rds"
+          ],
+          "summary": "This Codex skill audits application logs, CI/CD pipeline logs, container logs, and observability pipelines (stdout, file, ELK, Splunk, Datadog, Loki, CloudWatch) for leaked secrets, PII, and regulated data \u2014 and proposes a scrubbing/redaction pipeline that runs before logs leave the host.",
+          "file": "skills/cybersecurity/secrets-in-logs-scrubber.md"
+        },
+        {
+          "id": "sql-injection-finder",
+          "name": "SQL Injection Finder",
+          "difficulty": "Intermediate",
+          "tags": [
+            "afl",
+            "cwe",
+            "cybersecurity",
+            "owasp",
+            "pci",
+            "rds",
+            "semgrep"
+          ],
+          "summary": "This Codex skill detects SQL Injection (SQLi) vulnerabilities \u2014 classic, blind, second-order, and stored-procedure-based \u2014 across codebases in any language.",
+          "file": "skills/cybersecurity/sql-injection-finder.md"
+        },
+        {
+          "id": "ssrf-detector",
+          "name": "SSRF Detector",
+          "difficulty": "Intermediate",
+          "tags": [
+            "cwe",
+            "cybersecurity",
+            "oauth",
+            "owasp",
+            "pci",
+            "rds",
+            "saml",
+            "soc-2"
+          ],
+          "summary": "This Codex skill detects Server-Side Request Forgery (SSRF) vulnerabilities \u2014 classic, blind, and the cloud-metadata variant that powered the Capital One 2019 breach.",
+          "file": "skills/cybersecurity/ssrf-detector.md"
+        },
+        {
+          "id": "tls-config-auditor",
+          "name": "TLS Config Auditor",
+          "difficulty": "Intermediate",
+          "tags": [
+            "csp",
+            "cwe",
+            "cybersecurity",
+            "hipaa",
+            "mtls",
+            "nist",
+            "pci",
+            "tls",
+            "vault"
+          ],
+          "summary": "This Codex skill audits TLS/SSL configuration across load balancers, web servers, API gateways, sidecar proxies, language-runtime HTTPS clients, and certificate inventories.",
+          "file": "skills/cybersecurity/tls-config-auditor.md"
+        },
+        {
+          "id": "xss-finder",
+          "name": "XSS Finder",
+          "difficulty": "Intermediate",
+          "tags": [
+            "csp",
+            "cwe",
+            "cybersecurity",
+            "owasp",
+            "semgrep"
+          ],
+          "summary": "This Codex skill detects Cross-Site Scripting (XSS) vulnerabilities \u2014 reflected, stored, DOM-based, and mutation-based \u2014 across web front-ends and server-rendered templates.",
+          "file": "skills/cybersecurity/xss-finder.md"
+        }
+      ]
+    },
+    {
+      "id": "secure-coding",
+      "title": "Secure Coding",
+      "icon": "\ud83d\udd12",
+      "tagline": "Harden code at the source: validation, encoding, sessions, crypto, and code-review fundamentals.",
+      "capabilities": [
+        "input validation",
+        "output encoding",
+        "parameterization",
+        "session hardening",
+        "PR review"
+      ],
+      "skill_count": 16,
+      "skills": [
+        {
+          "id": "application-security",
+          "name": "Application Security (Comprehensive)",
+          "difficulty": "Advanced",
+          "tags": [
+            "application-security",
+            "authentication",
+            "authorization",
+            "input-validation",
+            "data-protection",
+            "secure-config",
+            "supply-chain",
+            "threat-modeling",
+            "monitoring",
+            "compliance"
+          ],
+          "summary": "Comprehensive application-security skill covering auth, input validation, data protection, monitoring, secure config, supply chain, and threat modeling.",
+          "file": "skills/secure-coding/application-security.md"
+        },
+        {
+          "id": "complexity-reducer",
+          "name": "Complexity Reducer",
+          "difficulty": "Intermediate",
+          "tags": [
+            "secure-coding"
+          ],
+          "summary": "This Codex skill reduces cyclomatic and cognitive complexity by extracting helper functions, replacing nested conditionals with guard clauses, simplifying boolean expressions via De Morgan's laws, replacing switch statements with lookup tables, and eliminating dead branches.",
+          "file": "skills/secure-coding/complexity-reducer.md"
+        },
+        {
+          "id": "csrf-token-generator",
+          "name": "CSRF Token Generator",
+          "difficulty": "Intermediate",
+          "tags": [
+            "jwt",
+            "owasp",
+            "secure-coding"
+          ],
+          "summary": "This Codex skill implements or hardens Cross-Site Request Forgery protection by generating per-session, signed CSRF tokens, embedding them in forms and request headers, and validating them server-side with constant-time comparison.",
+          "file": "skills/secure-coding/csrf-token-generator.md"
+        },
+        {
+          "id": "dangerous-function-replacer",
+          "name": "Dangerous Function Replacer",
+          "difficulty": "Intermediate",
+          "tags": [
+            "cwe",
+            "secure-coding",
+            "semgrep"
+          ],
+          "summary": "This Codex skill scans for and replaces known-dangerous standard library functions with safe equivalents across languages: C (strcpy \u2192 snprintf, sprintf \u2192 snprintf, gets \u2192 fgets, strtok \u2192 strtok_r), Python (eval, exec, pickle.loads, os.system), Node (eval, Function, child_process.exec with shell), PHP (mysql_query, unserialize on user data), and Ruby (eval, send with user input).",
+          "file": "skills/secure-coding/dangerous-function-replacer.md"
+        },
+        {
+          "id": "dead-code-eliminator",
+          "name": "Dead Code Eliminator",
+          "difficulty": "Intermediate",
+          "tags": [
+            "secure-coding"
+          ],
+          "summary": "This Codex skill identifies and removes unreachable code: unused private functions, commented-out blocks, unused imports, unused CSS classes, unreachable branches after early returns, and obsolete feature flags.",
+          "file": "skills/secure-coding/dead-code-eliminator.md"
+        },
+        {
+          "id": "error-message-sanitizer",
+          "name": "Error Message Sanitizer",
+          "difficulty": "Intermediate",
+          "tags": [
+            "asvs",
+            "ecr",
+            "owasp",
+            "secure-coding"
+          ],
+          "summary": "This Codex skill audits error messages, stack traces, and exception payloads to ensure they do not leak sensitive information: stack paths, SQL fragments, internal hostnames, environment variables, secrets, or PII.",
+          "file": "skills/secure-coding/error-message-sanitizer.md"
+        },
+        {
+          "id": "input-validation-hardener",
+          "name": "Input Validation Hardener",
+          "difficulty": "Intermediate",
+          "tags": [
+            "asvs",
+            "cwe",
+            "ecr",
+            "secure-coding"
+          ],
+          "summary": "This Codex skill audits every entry point where untrusted data crosses a trust boundary (HTTP handlers, gRPC methods, queue consumers, CLI args, file imports) and rewrites the validation layer to use allowlist schemas, canonicalization, length limits, and type coercion.",
+          "file": "skills/secure-coding/input-validation-hardener.md"
+        },
+        {
+          "id": "memory-safety-reviewer",
+          "name": "Memory Safety Reviewer",
+          "difficulty": "Intermediate",
+          "tags": [
+            "argo",
+            "cwe",
+            "secure-coding"
+          ],
+          "summary": "This Codex skill reviews C, C++, Rust (unsafe), and Zig code for memory safety defects: buffer overflows, use-after-free, double-free, out-of-bounds reads/writes, format string bugs, and integer overflows that lead to memory corruption.",
+          "file": "skills/secure-coding/memory-safety-reviewer.md"
+        },
+        {
+          "id": "output-encoding-helper",
+          "name": "Output Encoding Helper",
+          "difficulty": "Intermediate",
+          "tags": [
+            "csp",
+            "cwe",
+            "owasp",
+            "secure-coding"
+          ],
+          "summary": "This Codex skill ensures that every value rendered into HTML, JavaScript, CSS, URL, or attribute context is encoded with the correct context-specific encoder, eliminating reflected and stored XSS.",
+          "file": "skills/secure-coding/output-encoding-helper.md"
+        },
+        {
+          "id": "parameterized-query-generator",
+          "name": "Parameterized Query Generator",
+          "difficulty": "Intermediate",
+          "tags": [
+            "cwe",
+            "rds",
+            "secure-coding"
+          ],
+          "summary": "This Codex skill converts string-concatenated SQL, NoSQL, OS command, and LDAP queries into parameterized or prepared-statement equivalents.",
+          "file": "skills/secure-coding/parameterized-query-generator.md"
+        },
+        {
+          "id": "password-hashing-advisor",
+          "name": "Password Hashing Advisor",
+          "difficulty": "Intermediate",
+          "tags": [
+            "argo",
+            "ecr",
+            "hipaa",
+            "owasp",
+            "pci",
+            "rds",
+            "secure-coding"
+          ],
+          "summary": "This Codex skill reviews password storage to ensure hashing uses Argon2id (preferred), bcrypt with cost >= 12, or scrypt with approved parameters, and that salts are unique per-user and stored alongside the hash.",
+          "file": "skills/secure-coding/password-hashing-advisor.md"
+        },
+        {
+          "id": "pr-summary-writer",
+          "name": "PR Summary Writer",
+          "difficulty": "Beginner",
+          "tags": [
+            "ecr",
+            "secure-coding"
+          ],
+          "summary": "This Codex skill reads a git diff and the related issue context, then produces a structured PR description: a one-paragraph summary, a 'Why' section, a 'What Changed' bullet list grouped by area, a 'Test Plan' section, and a 'Risk Assessment'.",
+          "file": "skills/secure-coding/pr-summary-writer.md"
+        },
+        {
+          "id": "race-condition-finder",
+          "name": "Race Condition Finder",
+          "difficulty": "Intermediate",
+          "tags": [
+            "cwe",
+            "ecr",
+            "secure-coding"
+          ],
+          "summary": "This Codex skill identifies Time-of-Check-to-Time-of-Use (TOCTOU) and other concurrency bugs in shared-state code paths: balance updates, inventory decrements, coupon redemption, rate limiter counters, and file-based locks.",
+          "file": "skills/secure-coding/race-condition-finder.md"
+        },
+        {
+          "id": "review-checklist-generator",
+          "name": "Review Checklist Generator",
+          "difficulty": "Beginner",
+          "tags": [
+            "ecr",
+            "hipaa",
+            "pci",
+            "secure-coding"
+          ],
+          "summary": "This Codex skill generates a per-PR review checklist tailored to the change type, language, framework, and affected areas (auth, payments, infra, UI).",
+          "file": "skills/secure-coding/review-checklist-generator.md"
+        },
+        {
+          "id": "secure-file-upload-handler",
+          "name": "Secure File Upload Handler",
+          "difficulty": "Intermediate",
+          "tags": [
+            "s3",
+            "secure-coding"
+          ],
+          "summary": "This Codex skill designs or audits file upload pipelines to prevent malicious file execution, path traversal via filename, DoS via oversized uploads, and stored XSS via SVG/HTML uploads.",
+          "file": "skills/secure-coding/secure-file-upload-handler.md"
+        },
+        {
+          "id": "secure-session-manager",
+          "name": "Secure Session Manager",
+          "difficulty": "Intermediate",
+          "tags": [
+            "asvs",
+            "ecr",
+            "hipaa",
+            "jwt",
+            "owasp",
+            "pci",
+            "secure-coding"
+          ],
+          "summary": "This Codex skill audits and hardens session management: cookie flags, session ID entropy, rotation on authentication, idle and absolute timeouts, server-side invalidation, and CSRF protection pairing.",
+          "file": "skills/secure-coding/secure-session-manager.md"
+        }
+      ]
+    },
+    {
+      "id": "cloud-security",
+      "title": "Cloud Security & Compliance",
+      "icon": "\u2601\ufe0f",
+      "tagline": "Audit AWS/Azure/GCP posture, segment networks, and satisfy PCI, GDPR, SOC 2, HIPAA, ISO 27001.",
+      "capabilities": [
+        "IAM audit",
+        "network segmentation",
+        "compliance mapping",
+        "workload identity",
+        "audit logging"
+      ],
+      "skill_count": 19,
+      "skills": [
+        {
+          "id": "access-review-orchestrator",
+          "name": "Access Review Orchestrator",
+          "difficulty": "Intermediate",
+          "tags": [
+            "cloud-security",
+            "iam",
+            "iso-27001",
+            "soc-2"
+          ],
+          "summary": "This Codex skill orchestrates a quarterly access review: pulls the current access list (who has access to what), sends to managers for review, captures decisions (keep, modify, revoke), and produces an audit trail.",
+          "file": "skills/cloud-security/access-review-orchestrator.md"
+        },
+        {
+          "id": "audit-log-architect",
+          "name": "Audit Log Architect",
+          "difficulty": "Advanced",
+          "tags": [
+            "cloud-security",
+            "ecr",
+            "hipaa",
+            "pci",
+            "rds",
+            "s3",
+            "soc-2"
+          ],
+          "summary": "This Codex skill designs an audit logging system that meets compliance requirements (SOC 2, HIPAA, PCI): what to log, the log format, tamper-evidence, retention, and access control.",
+          "file": "skills/cloud-security/audit-log-architect.md"
+        },
+        {
+          "id": "aws-iam-policy-auditor",
+          "name": "AWS IAM Policy Auditor",
+          "difficulty": "Intermediate",
+          "tags": [
+            "cis",
+            "cloud-security",
+            "cloudtrail",
+            "iam",
+            "terraform"
+          ],
+          "summary": "This Codex skill audits AWS IAM policies (managed and inline) for over-permissive statements: Action '*', Resource '*', Principal '*', missing conditions, and privilege escalation paths.",
+          "file": "skills/cloud-security/aws-iam-policy-auditor.md"
+        },
+        {
+          "id": "azure-security-baseline-checker",
+          "name": "Azure Security Baseline Checker",
+          "difficulty": "Intermediate",
+          "tags": [
+            "cloud-security",
+            "ecr",
+            "iso-27001",
+            "rds",
+            "soc-2",
+            "vault"
+          ],
+          "summary": "This Codex skill checks an Azure subscription against the Azure Security Benchmark: MFA on all accounts, no legacy auth, disk encryption, NSG on subnets, Key Vault for secrets, Defender for Cloud enabled, and activity log alerts for sensitive operations.",
+          "file": "skills/cloud-security/azure-security-baseline-checker.md"
+        },
+        {
+          "id": "cloud-backup-recovery-planner",
+          "name": "Cloud Backup Recovery Planner",
+          "difficulty": "Intermediate",
+          "tags": [
+            "cloud-security",
+            "gdpr",
+            "hipaa",
+            "pci",
+            "rds",
+            "s3",
+            "terraform"
+          ],
+          "summary": "This Codex skill designs a backup and recovery plan for cloud workloads: RPO and RTO targets, backup types (snapshot, incremental, continuous), storage tiering, encryption, cross-region replication, restore testing, and retention policy.",
+          "file": "skills/cloud-security/cloud-backup-recovery-planner.md"
+        },
+        {
+          "id": "cloud-network-segmentation-planner",
+          "name": "Cloud Network Segmentation Planner",
+          "difficulty": "Advanced",
+          "tags": [
+            "cloud-security",
+            "eks",
+            "kubernetes",
+            "pci",
+            "terraform"
+          ],
+          "summary": "This Codex skill designs a network segmentation strategy for a cloud workload: VPC design, subnet tiers (public, private, data), security group rules, NetworkPolicy for Kubernetes, and firewall rules for east-west traffic.",
+          "file": "skills/cloud-security/cloud-network-segmentation-planner.md"
+        },
+        {
+          "id": "cloud-secret-manager-migrator",
+          "name": "Cloud Secret Manager Migrator",
+          "difficulty": "Intermediate",
+          "tags": [
+            "cloud-security",
+            "ecr",
+            "eks",
+            "iam",
+            "kubernetes",
+            "tls",
+            "vault"
+          ],
+          "summary": "This Codex skill migrates secrets from scattered sources (env vars, .env files, hardcoded values, Kubernetes Secrets in plaintext) to a centralized secret manager (AWS Secrets Manager, GCP Secret Manager, Azure Key Vault, HashiCorp Vault) with zero downtime and a verifiable rollback.",
+          "file": "skills/cloud-security/cloud-secret-manager-migrator.md"
+        },
+        {
+          "id": "cloud-workload-identity-migrator",
+          "name": "Cloud Workload Identity Migrator",
+          "difficulty": "Advanced",
+          "tags": [
+            "cloud-security",
+            "ecr",
+            "eks",
+            "github-actions",
+            "kubernetes"
+          ],
+          "summary": "This Codex skill migrates workloads from long-lived service account keys to workload identity federation (AWS IRSA, GCP Workload Identity, Azure Managed Identity, Kubernetes OIDC federation).",
+          "file": "skills/cloud-security/cloud-workload-identity-migrator.md"
+        },
+        {
+          "id": "cloudtrail-forensics-helper",
+          "name": "CloudTrail Forensics Helper",
+          "difficulty": "Intermediate",
+          "tags": [
+            "cloud-security",
+            "cloudtrail",
+            "ecr",
+            "guardduty",
+            "iam",
+            "s3"
+          ],
+          "summary": "This Codex skill queries AWS CloudTrail logs to investigate a security incident: identifies the source IP, user agent, API calls, and resources affected by a suspicious activity.",
+          "file": "skills/cloud-security/cloudtrail-forensics-helper.md"
+        },
+        {
+          "id": "gcp-iam-recommender",
+          "name": "GCP IAM Recommender",
+          "difficulty": "Intermediate",
+          "tags": [
+            "cloud-security",
+            "iam"
+          ],
+          "summary": "This Codex skill uses GCP's IAM Recommender and additional analysis to identify over-permissive IAM bindings, service accounts with unused keys, and workloads running with default service accounts.",
+          "file": "skills/cloud-security/gcp-iam-recommender.md"
+        },
+        {
+          "id": "gdpr-data-flow-mapper",
+          "name": "GDPR Data Flow Mapper",
+          "difficulty": "Advanced",
+          "tags": [
+            "cloud-security",
+            "gdpr",
+            "rds",
+            "s3"
+          ],
+          "summary": "This Codex skill maps the flow of personal data through an application: collection points, storage locations, processors (third parties), retention periods, and cross-border transfers.",
+          "file": "skills/cloud-security/gdpr-data-flow-mapper.md"
+        },
+        {
+          "id": "guardduty-finding-triager",
+          "name": "GuardDuty Finding Triager",
+          "difficulty": "Intermediate",
+          "tags": [
+            "cloud-security",
+            "cloudtrail",
+            "guardduty",
+            "iam"
+          ],
+          "summary": "This Codex skill triages AWS GuardDuty findings: classifies each as true positive, false positive, or benign-but-actionable; correlates with CloudTrail and VPC Flow Logs; and recommends a response (contain, monitor, dismiss).",
+          "file": "skills/cloud-security/guardduty-finding-triager.md"
+        },
+        {
+          "id": "hipaa-phi-handler",
+          "name": "HIPAA PHI Handler",
+          "difficulty": "Advanced",
+          "tags": [
+            "cloud-security",
+            "hipaa",
+            "rds",
+            "s3",
+            "tls"
+          ],
+          "summary": "This Codex skill designs the handling of Protected Health Information (PHI) in an application: minimum necessary access, encryption at rest and in transit, audit logging, Business Associate Agreements (BAAs) with vendors, and breach notification readiness.",
+          "file": "skills/cloud-security/hipaa-phi-handler.md"
+        },
+        {
+          "id": "iso-27001-control-implementer",
+          "name": "ISO 27001 Control Implementer",
+          "difficulty": "Advanced",
+          "tags": [
+            "cloud-security",
+            "iso-27001",
+            "rds",
+            "snyk",
+            "tls"
+          ],
+          "summary": "This Codex skill designs implementations for ISO 27001 Annex A controls: A.5 (policies), A.6 (organization), A.7 (HR), A.8 (asset management), A.9 (access control), and the technical controls in A.10-A.18.",
+          "file": "skills/cloud-security/iso-27001-control-implementer.md"
+        },
+        {
+          "id": "kubernetes-network-policy-generator",
+          "name": "Kubernetes NetworkPolicy Generator",
+          "difficulty": "Advanced",
+          "tags": [
+            "cloud-security",
+            "eks",
+            "kubernetes",
+            "prometheus",
+            "s3"
+          ],
+          "summary": "This Codex skill generates NetworkPolicy YAML for a Kubernetes namespace based on the actual observed traffic between pods.",
+          "file": "skills/cloud-security/kubernetes-network-policy-generator.md"
+        },
+        {
+          "id": "multi-cloud-inventory-builder",
+          "name": "Multi-Cloud Inventory Builder",
+          "difficulty": "Intermediate",
+          "tags": [
+            "cloud-security",
+            "csp",
+            "iam",
+            "rds",
+            "s3"
+          ],
+          "summary": "This Codex skill builds a unified inventory of resources across AWS, Azure, and GCP: compute, storage, network, IAM, and databases.",
+          "file": "skills/cloud-security/multi-cloud-inventory-builder.md"
+        },
+        {
+          "id": "pci-dss-scope-mapper",
+          "name": "PCI DSS Scope Mapper",
+          "difficulty": "Advanced",
+          "tags": [
+            "cloud-security",
+            "pci"
+          ],
+          "summary": "This Codex skill maps an application's architecture to PCI DSS scope: identifies the cardholder data environment (CDE), the systems that touch cardholder data, and the systems that can affect the CDE.",
+          "file": "skills/cloud-security/pci-dss-scope-mapper.md"
+        },
+        {
+          "id": "s3-bucket-policy-auditor",
+          "name": "S3 Bucket Policy Auditor",
+          "difficulty": "Intermediate",
+          "tags": [
+            "cloud-security",
+            "cloudtrail",
+            "gdpr",
+            "hipaa",
+            "pci",
+            "s3"
+          ],
+          "summary": "This Codex skill audits S3 buckets for public exposure, missing encryption, missing versioning, missing access logs, and permissive bucket policies.",
+          "file": "skills/cloud-security/s3-bucket-policy-auditor.md"
+        },
+        {
+          "id": "soc2-control-mapper",
+          "name": "SOC 2 Control Mapper",
+          "difficulty": "Advanced",
+          "tags": [
+            "cloud-security",
+            "cloudtrail",
+            "soc-2"
+          ],
+          "summary": "This Codex skill maps an org's controls to the SOC 2 Trust Services Criteria: Security, Availability, Processing Integrity, Confidentiality, Privacy.",
+          "file": "skills/cloud-security/soc2-control-mapper.md"
+        }
+      ]
+    },
+    {
+      "id": "incident-response",
+      "title": "Incident Response",
+      "icon": "\ud83d\udea8",
+      "tagline": "Detect, contain, and learn from incidents \u2014 forensics, RCA, comms, postmortems, and DSAR.",
+      "capabilities": [
+        "severity classification",
+        "RCA",
+        "forensics",
+        "postmortem",
+        "data subject requests"
+      ],
+      "skill_count": 14,
+      "skills": [
+        {
+          "id": "compromised-credential-responder",
+          "name": "Compromised Credential Responder",
+          "difficulty": "Advanced",
+          "tags": [
+            "cloudtrail",
+            "iam",
+            "incident-response",
+            "oauth",
+            "rds",
+            "s3"
+          ],
+          "summary": "This Codex skill orchestrates the response to a compromised credential: identify the scope (which systems the credential can access), revoke the credential, audit for unauthorized access, and reset all related credentials.",
+          "file": "skills/incident-response/compromised-credential-responder.md"
+        },
+        {
+          "id": "data-retention-policy-enforcer",
+          "name": "Data Retention Policy Enforcer",
+          "difficulty": "Intermediate",
+          "tags": [
+            "gdpr",
+            "hipaa",
+            "incident-response",
+            "pci",
+            "rds",
+            "soc-2"
+          ],
+          "summary": "This Codex skill designs and implements a data retention policy: per-data-type retention periods, automated deletion mechanisms, legal hold exceptions, and audit logging of deletions.",
+          "file": "skills/incident-response/data-retention-policy-enforcer.md"
+        },
+        {
+          "id": "dsar-responder",
+          "name": "DSAR Responder",
+          "difficulty": "Intermediate",
+          "tags": [
+            "gdpr",
+            "incident-response",
+            "rds",
+            "s3"
+          ],
+          "summary": "This Codex skill orchestrates the response to a Data Subject Access Request (DSAR): verify identity, locate all the user's personal data, export or delete per the request, and respond within the legal deadline (30 days for GDPR, 45 for CCPA).",
+          "file": "skills/incident-response/dsar-responder.md"
+        },
+        {
+          "id": "forensic-snapshot-collector",
+          "name": "Forensic Snapshot Collector",
+          "difficulty": "Advanced",
+          "tags": [
+            "cloudtrail",
+            "ecr",
+            "iam",
+            "incident-response",
+            "rds",
+            "s3"
+          ],
+          "summary": "This Codex skill orchestrates the collection of forensic snapshots during a security incident: disk images, memory dumps, network captures, log bundles, and database snapshots.",
+          "file": "skills/incident-response/forensic-snapshot-collector.md"
+        },
+        {
+          "id": "incident-comms-drafter",
+          "name": "Incident Comms Drafter",
+          "difficulty": "Intermediate",
+          "tags": [
+            "argo",
+            "incident-response"
+          ],
+          "summary": "This Codex skill drafts customer-facing and internal communications during an incident: status page updates, customer emails, executive summaries, and internal all-hands messages.",
+          "file": "skills/incident-response/incident-comms-drafter.md"
+        },
+        {
+          "id": "incident-severity-classifier",
+          "name": "Incident Severity Classifier",
+          "difficulty": "Beginner",
+          "tags": [
+            "ecr",
+            "incident-response"
+          ],
+          "summary": "This Codex skill classifies a reported incident by severity (SEV1 through SEV4) based on impact (users affected, revenue loss, data exposure) and urgency (is it getting worse, is there a workaround).",
+          "file": "skills/incident-response/incident-severity-classifier.md"
+        },
+        {
+          "id": "incident-timeline-builder",
+          "name": "Incident Timeline Builder",
+          "difficulty": "Intermediate",
+          "tags": [
+            "argo",
+            "argocd",
+            "grafana",
+            "incident-response"
+          ],
+          "summary": "This Codex skill reconstructs an incident timeline from logs, alerts, chat messages, and commit history: detection time, page time, ack time, mitigation start, mitigation complete, resolution.",
+          "file": "skills/incident-response/incident-timeline-builder.md"
+        },
+        {
+          "id": "ir-runbook-index-builder",
+          "name": "IR Runbook Index Builder",
+          "difficulty": "Intermediate",
+          "tags": [
+            "ecr",
+            "incident-response"
+          ],
+          "summary": "This Codex skill builds and maintains an index of incident response runbooks: by scenario (malware, cred compromise, data breach), by severity (SEV1-4), and by service.",
+          "file": "skills/incident-response/ir-runbook-index-builder.md"
+        },
+        {
+          "id": "ir-tabletop-exercise-designer",
+          "name": "IR Tabletop Exercise Designer",
+          "difficulty": "Advanced",
+          "tags": [
+            "incident-response"
+          ],
+          "summary": "This Codex skill designs a tabletop exercise for the incident response team: scenario, inject sequence, expected actions, evaluation criteria, and a post-exercise debrief.",
+          "file": "skills/incident-response/ir-tabletop-exercise-designer.md"
+        },
+        {
+          "id": "malware-triage-analyzer",
+          "name": "Malware Triage Analyzer",
+          "difficulty": "Advanced",
+          "tags": [
+            "cuckoo",
+            "incident-response",
+            "virustotal"
+          ],
+          "summary": "This Codex skill performs initial triage on a suspected malware sample: file type, hashes, AV detections (VirusTotal), static indicators (strings, imports, suspicious APIs), and a sandbox execution plan.",
+          "file": "skills/incident-response/malware-triage-analyzer.md"
+        },
+        {
+          "id": "postmortem-author",
+          "name": "Postmortem Author",
+          "difficulty": "Intermediate",
+          "tags": [
+            "incident-response"
+          ],
+          "summary": "This Codex skill authors a blameless postmortem document for a resolved incident: summary, timeline, impact, root cause, contributing factors, what went well, what went poorly, action items.",
+          "file": "skills/incident-response/postmortem-author.md"
+        },
+        {
+          "id": "root-cause-analyzer",
+          "name": "Root Cause Analyzer",
+          "difficulty": "Advanced",
+          "tags": [
+            "incident-response",
+            "rds"
+          ],
+          "summary": "This Codex skill performs a 5-Whys or fishbone root cause analysis on an incident: iteratively asks 'why' until reaching a systemic cause, identifies contributing factors, and proposes preventive actions.",
+          "file": "skills/incident-response/root-cause-analyzer.md"
+        },
+        {
+          "id": "runbook-author",
+          "name": "Runbook Author",
+          "difficulty": "Intermediate",
+          "tags": [
+            "ecr",
+            "helm",
+            "incident-response",
+            "rds"
+          ],
+          "summary": "This Codex skill authors operational runbooks for an on-call engineer: service overview, common alerts, triage steps, mitigation, escalation, and post-incident actions.",
+          "file": "skills/incident-response/runbook-author.md"
+        },
+        {
+          "id": "vendor-risk-assessor",
+          "name": "Vendor Risk Assessor",
+          "difficulty": "Advanced",
+          "tags": [
+            "incident-response",
+            "iso-27001",
+            "soc-2"
+          ],
+          "summary": "This Codex skill assesses a vendor's security and compliance posture before onboarding: questionnaire, evidence review (SOC 2, ISO 27001), penetration test results, incident history, and the risk score.",
+          "file": "skills/incident-response/vendor-risk-assessor.md"
+        }
+      ]
+    },
+    {
+      "id": "ai-security",
+      "title": "AI Security",
+      "icon": "\ud83e\udd16",
+      "tagline": "Test and harden LLM applications: prompt injection, RAG trust, model supply chain, agent gating.",
+      "capabilities": [
+        "prompt injection",
+        "LLM output filtering",
+        "RAG trust",
+        "model supply chain",
+        "drift monitoring"
+      ],
+      "skill_count": 9,
+      "skills": [
+        {
+          "id": "ai-agent-tool-gatekeeper",
+          "name": "AI Agent Tool Gatekeeper",
+          "difficulty": "Advanced",
+          "tags": [
+            "ai-security",
+            "ecr"
+          ],
+          "summary": "This Codex skill designs a tool-call gatekeeper for an LLM agent that can invoke tools: allowlist of tools per agent, parameter validation, rate limiting, human-in-the-loop approval for sensitive tools, and audit logging.",
+          "file": "skills/ai-security/ai-agent-tool-gatekeeper.md"
+        },
+        {
+          "id": "ai-model-supply-chain-auditor",
+          "name": "AI Model Supply Chain Auditor",
+          "difficulty": "Advanced",
+          "tags": [
+            "ai-security",
+            "anthropic",
+            "hugging-face",
+            "openai",
+            "pytorch"
+          ],
+          "summary": "This Codex skill audits the supply chain of AI models used by an application: model provenance (Hugging Face, OpenAI, internal), license compatibility, training data disclosure, known vulnerabilities in model files (pickle deserialization, malicious weights), and version pinning.",
+          "file": "skills/ai-security/ai-model-supply-chain-auditor.md"
+        },
+        {
+          "id": "ai-pii-redactor",
+          "name": "AI PII Redactor",
+          "difficulty": "Intermediate",
+          "tags": [
+            "ai-security",
+            "anthropic",
+            "gdpr",
+            "hipaa",
+            "openai",
+            "presidio"
+          ],
+          "summary": "This Codex skill designs a PII redaction layer for an LLM application: detects PII in user input and LLM output (SSN, email, phone, credit card, names), redacts or masks before logging, before sending to the LLM, and before returning to the user.",
+          "file": "skills/ai-security/ai-pii-redactor.md"
+        },
+        {
+          "id": "llm-evaluation-harness-builder",
+          "name": "LLM Evaluation Harness Builder",
+          "difficulty": "Advanced",
+          "tags": [
+            "ai-security",
+            "grafana"
+          ],
+          "summary": "This Codex skill builds an evaluation harness for an LLM application: test cases for accuracy, safety, fairness, robustness, and cost; automated scoring (LLM-as-judge, regex, exact match); regression detection; and a dashboard.",
+          "file": "skills/ai-security/llm-evaluation-harness-builder.md"
+        },
+        {
+          "id": "llm-output-filter-designer",
+          "name": "LLM Output Filter Designer",
+          "difficulty": "Intermediate",
+          "tags": [
+            "ai-security",
+            "openai",
+            "rds"
+          ],
+          "summary": "This Codex skill designs output filters for an LLM application: content moderation (toxicity, PII, regulated content), format validation (JSON schema, regex), and safety guards (no tool invocation without approval).",
+          "file": "skills/ai-security/llm-output-filter-designer.md"
+        },
+        {
+          "id": "model-drift-monitor",
+          "name": "Model Drift Monitor",
+          "difficulty": "Advanced",
+          "tags": [
+            "ai-security",
+            "prometheus"
+          ],
+          "summary": "This Codex skill designs a monitoring system for ML model drift: input drift (feature distribution shift), output drift (prediction distribution shift), and concept drift (the relationship between input and output changes).",
+          "file": "skills/ai-security/model-drift-monitor.md"
+        },
+        {
+          "id": "prompt-injection-tester",
+          "name": "Prompt Injection Tester",
+          "difficulty": "Advanced",
+          "tags": [
+            "ai-security",
+            "ecr",
+            "owasp"
+          ],
+          "summary": "This Codex skill tests an LLM application for prompt injection vulnerabilities: direct injection (user input overrides system prompt), indirect injection (injected content in retrieved context), and jailbreaks (role-play, encoding, payload smuggling).",
+          "file": "skills/ai-security/prompt-injection-tester.md"
+        },
+        {
+          "id": "rag-source-trust-evaluator",
+          "name": "RAG Source Trust Evaluator",
+          "difficulty": "Advanced",
+          "tags": [
+            "ai-security"
+          ],
+          "summary": "This Codex skill evaluates the trustworthiness of retrieval sources in a RAG pipeline: source provenance, freshness, content integrity, and indirect injection risk.",
+          "file": "skills/ai-security/rag-source-trust-evaluator.md"
+        },
+        {
+          "id": "vector-db-security-auditor",
+          "name": "Vector DB Security Auditor",
+          "difficulty": "Advanced",
+          "tags": [
+            "ai-security",
+            "hipaa",
+            "mtls",
+            "soc-2",
+            "tls"
+          ],
+          "summary": "This Codex skill audits a vector database (Pinecone, Weaviate, Milvus, pgvector) for security: authentication, authorization (per-namespace ACLs), encryption (at rest, in transit), data isolation (multi-tenant), and access logging.",
+          "file": "skills/ai-security/vector-db-security-auditor.md"
+        }
+      ]
+    },
+    {
+      "id": "devops",
+      "title": "DevOps & Engineering Practice",
+      "icon": "\u2699\ufe0f",
+      "tagline": "Ship safer and faster: CI optimization, container hardening, observability, architecture, and docs.",
+      "capabilities": [
+        "CI optimization",
+        "container hardening",
+        "observability",
+        "architecture rules",
+        "engineering docs"
+      ],
+      "skill_count": 26,
+      "skills": [
+        {
+          "id": "api-contract-diff-reviewer",
+          "name": "API Contract Diff Reviewer",
+          "difficulty": "Intermediate",
+          "tags": [
+            "devops"
+          ],
+          "summary": "This Codex skill diffs an OpenAPI, Protobuf, or GraphQL schema against the previous version and classifies each change as breaking, additive, or non-impactful.",
+          "file": "skills/devops/api-contract-diff-reviewer.md"
+        },
+        {
+          "id": "api-doc-generator",
+          "name": "API Documentation Generator",
+          "difficulty": "Intermediate",
+          "tags": [
+            "devops",
+            "oauth"
+          ],
+          "summary": "This Codex skill generates API documentation from an OpenAPI, Protobuf, or GraphQL contract: endpoint reference, request/response examples, authentication flows, error codes, and SDK code samples in multiple languages.",
+          "file": "skills/devops/api-doc-generator.md"
+        },
+        {
+          "id": "architecture-decision-record-author",
+          "name": "Architecture Decision Record Author",
+          "difficulty": "Intermediate",
+          "tags": [
+            "devops",
+            "gdpr",
+            "pci",
+            "rds"
+          ],
+          "summary": "This Codex skill authors Architecture Decision Records (ADRs) for significant technical decisions: context, decision, consequences, alternatives considered.",
+          "file": "skills/devops/architecture-decision-record-author.md"
+        },
+        {
+          "id": "architecture-rule-checker",
+          "name": "Architecture Rule Checker",
+          "difficulty": "Intermediate",
+          "tags": [
+            "devops",
+            "github-actions",
+            "rds"
+          ],
+          "summary": "This Codex skill enforces architectural layering rules: domain layer must not depend on infrastructure, controllers must not call repositories directly, cross-module imports must go through declared public APIs, and cyclic dependencies between modules are forbidden.",
+          "file": "skills/devops/architecture-rule-checker.md"
+        },
+        {
+          "id": "argo-workflow-generator",
+          "name": "Argo Workflow Generator",
+          "difficulty": "Intermediate",
+          "tags": [
+            "argo",
+            "devops",
+            "ecr",
+            "kubernetes",
+            "s3"
+          ],
+          "summary": "This Codex skill generates Argo Workflow YAML for batch, ETL, and ML pipelines with retry strategies, artifact passing, parameter propagation, exit handlers for cleanup, and conditional steps.",
+          "file": "skills/devops/argo-workflow-generator.md"
+        },
+        {
+          "id": "blue-green-deploy-planner",
+          "name": "Blue-Green Deploy Planner",
+          "difficulty": "Intermediate",
+          "tags": [
+            "devops",
+            "kubernetes"
+          ],
+          "summary": "This Codex skill designs a blue-green deployment strategy for a service: environment setup, traffic switch mechanism, health checks, rollback procedure, and database compatibility considerations.",
+          "file": "skills/devops/blue-green-deploy-planner.md"
+        },
+        {
+          "id": "chaos-experiment-designer",
+          "name": "Chaos Experiment Designer",
+          "difficulty": "Advanced",
+          "tags": [
+            "devops"
+          ],
+          "summary": "This Codex skill designs chaos engineering experiments: hypothesis, blast radius, steady-state definition, injection action, abort conditions, and rollback.",
+          "file": "skills/devops/chaos-experiment-designer.md"
+        },
+        {
+          "id": "ci-pipeline-optimizer",
+          "name": "CI Pipeline Optimizer",
+          "difficulty": "Intermediate",
+          "tags": [
+            "devops",
+            "docker",
+            "ecr",
+            "github-actions"
+          ],
+          "summary": "This Codex skill analyzes a CI pipeline (GitHub Actions, GitLab CI, CircleCI) and produces an optimization plan: caching strategy, parallelization, matrix pruning, conditional jobs, and step merging.",
+          "file": "skills/devops/ci-pipeline-optimizer.md"
+        },
+        {
+          "id": "code-smell-detector",
+          "name": "Code Smell Detector",
+          "difficulty": "Intermediate",
+          "tags": [
+            "devops"
+          ],
+          "summary": "This Codex skill identifies code smells \u2014 long methods, deep nesting, feature envy, primitive obsession, god classes, shotgun surgery, divergent change, data clumps, and inappropriate intimacy \u2014 and ranks them by refactor ROI.",
+          "file": "skills/devops/code-smell-detector.md"
+        },
+        {
+          "id": "cost-optimization-analyzer",
+          "name": "Cost Optimization Analyzer",
+          "difficulty": "Intermediate",
+          "tags": [
+            "devops",
+            "s3"
+          ],
+          "summary": "This Codex skill analyzes a cloud deployment's cost drivers: oversized compute instances, idle load balancers, over-provisioned databases, missing savings plans, unattached EBS volumes, and over-retained S3 objects.",
+          "file": "skills/devops/cost-optimization-analyzer.md"
+        },
+        {
+          "id": "developer-onboarding-doc-author",
+          "name": "Developer Onboarding Doc Author",
+          "difficulty": "Intermediate",
+          "tags": [
+            "devops",
+            "docker",
+            "ecr",
+            "kubernetes"
+          ],
+          "summary": "This Codex skill authors a developer onboarding document: environment setup, codebase tour, first PR guide, common pitfalls, and team norms.",
+          "file": "skills/devops/developer-onboarding-doc-author.md"
+        },
+        {
+          "id": "diagram-generator",
+          "name": "Diagram Generator",
+          "difficulty": "Intermediate",
+          "tags": [
+            "devops"
+          ],
+          "summary": "This Codex skill generates architecture and sequence diagrams from a codebase or written description: system context, container, component, deployment, and sequence diagrams using Mermaid, PlantUML, or Structurizr.",
+          "file": "skills/devops/diagram-generator.md"
+        },
+        {
+          "id": "dns-config-auditor",
+          "name": "DNS Config Auditor",
+          "difficulty": "Intermediate",
+          "tags": [
+            "devops",
+            "rds",
+            "s3"
+          ],
+          "summary": "This Codex skill audits DNS configuration for security and reliability: DNSSEC, CAA records (to restrict certificate authorities), SPF/DKIM/DMARC for email, CNAME flattening, low TTLs for failover, and stale records.",
+          "file": "skills/devops/dns-config-auditor.md"
+        },
+        {
+          "id": "dockerfile-hardener",
+          "name": "Dockerfile Hardener",
+          "difficulty": "Intermediate",
+          "tags": [
+            "cis",
+            "devops",
+            "docker",
+            "ecr",
+            "pci",
+            "snyk",
+            "trivy"
+          ],
+          "summary": "This Codex skill rewrites Dockerfiles to follow container security best practices: multi-stage builds, distroless or alpine base images, non-root user, read-only filesystem, no setuid binaries, minimal installed packages, pinned digests, HEALTHCHECK, and explicit USER directive.",
+          "file": "skills/devops/dockerfile-hardener.md"
+        },
+        {
+          "id": "glossary-builder",
+          "name": "Glossary Builder",
+          "difficulty": "Intermediate",
+          "tags": [
+            "argo",
+            "devops",
+            "pci"
+          ],
+          "summary": "This Codex skill builds a project glossary: domain terms, acronyms, codebase-specific names, and their definitions.",
+          "file": "skills/devops/glossary-builder.md"
+        },
+        {
+          "id": "helm-chart-auditor",
+          "name": "Helm Chart Auditor",
+          "difficulty": "Intermediate",
+          "tags": [
+            "devops",
+            "ecr",
+            "helm",
+            "kubeconform",
+            "kubernetes",
+            "rds"
+          ],
+          "summary": "This Codex skill reviews Helm charts for security and reliability: values.yaml defaults (privileged securityContext, public LoadBalancer, missing resource limits), template logic (no auto-generated passwords logged, no plaintext secrets), Chart.yaml versioning, and the README's documented values.",
+          "file": "skills/devops/helm-chart-auditor.md"
+        },
+        {
+          "id": "incident-runbook-generator",
+          "name": "Incident Runbook Generator",
+          "difficulty": "Intermediate",
+          "tags": [
+            "devops",
+            "ecr",
+            "rds"
+          ],
+          "summary": "This Codex skill generates a per-service incident runbook from the service's observability signals, dependencies, and known failure modes.",
+          "file": "skills/devops/incident-runbook-generator.md"
+        },
+        {
+          "id": "kubernetes-manifest-linter",
+          "name": "Kubernetes Manifest Linter",
+          "difficulty": "Intermediate",
+          "tags": [
+            "checkov",
+            "cis",
+            "devops",
+            "ecr",
+            "helm",
+            "kube-score",
+            "kubeconform",
+            "kubernetes"
+          ],
+          "summary": "This Codex skill reviews Kubernetes manifests (Deployment, Service, Ingress, ConfigMap, Secret) against security and reliability best practices: resource requests/limits, liveness/readiness probes, securityContext (runAsNonRoot, readOnlyRootFilesystem, drop ALL capabilities), networkPolicy, PodDisruptionBudget, and affinity rules.",
+          "file": "skills/devops/kubernetes-manifest-linter.md"
+        },
+        {
+          "id": "migration-reviewer",
+          "name": "Migration Reviewer",
+          "difficulty": "Intermediate",
+          "tags": [
+            "devops"
+          ],
+          "summary": "This Codex skill reviews database migrations for safety: backward compatibility with running app versions, idempotency, lock duration on large tables, data-loss risk, rollback strategy, and zero-downtime deployability.",
+          "file": "skills/devops/migration-reviewer.md"
+        },
+        {
+          "id": "monitoring-alert-tuner",
+          "name": "Monitoring Alert Tuner",
+          "difficulty": "Intermediate",
+          "tags": [
+            "devops",
+            "prometheus"
+          ],
+          "summary": "This Codex skill reviews existing alerts and tunes them for precision (low false positives) and recall (low false negatives): adjusts thresholds based on historical data, groups correlated alerts, adds runbook links, and removes noisy alerts that have not paged in 90 days.",
+          "file": "skills/devops/monitoring-alert-tuner.md"
+        },
+        {
+          "id": "naming-convention-enforcer",
+          "name": "Naming Convention Enforcer",
+          "difficulty": "Intermediate",
+          "tags": [
+            "devops",
+            "jest"
+          ],
+          "summary": "This Codex skill audits identifiers against the project's naming conventions and produces safe-rename patches: variables (camelCase vs snake_case), constants (UPPER_SNAKE), private members (leading underscore), boolean predicates (is/has/can prefix), interface names (no leading I unless configured), and test files (*.test.ts, *_test.go).",
+          "file": "skills/devops/naming-convention-enforcer.md"
+        },
+        {
+          "id": "observability-bootstrap",
+          "name": "Observability Bootstrap",
+          "difficulty": "Intermediate",
+          "tags": [
+            "devops",
+            "ecr",
+            "grafana",
+            "pci",
+            "prometheus"
+          ],
+          "summary": "This Codex skill bootstraps the three pillars of observability \u2014 structured logging, metrics, and distributed tracing \u2014 for a service, using the project's chosen stack (OpenTelemetry, Prometheus, Loki, Tempo, Datadog).",
+          "file": "skills/devops/observability-bootstrap.md"
+        },
+        {
+          "id": "readme-auditor",
+          "name": "README Auditor",
+          "difficulty": "Beginner",
+          "tags": [
+            "devops",
+            "github-actions",
+            "rds"
+          ],
+          "summary": "This Codex skill audits a project's README for completeness: project description, installation, usage, configuration, testing, contributing, license, security policy, and architecture overview.",
+          "file": "skills/devops/readme-auditor.md"
+        },
+        {
+          "id": "secrets-rotation-planner",
+          "name": "Secrets Rotation Planner",
+          "difficulty": "Intermediate",
+          "tags": [
+            "devops",
+            "ecr",
+            "jwt",
+            "kubernetes",
+            "pci",
+            "rds",
+            "tls",
+            "vault"
+          ],
+          "summary": "This Codex skill designs a rotation plan for a service's secrets (database passwords, API keys, signing keys) that supports zero-downtime rotation via a key-chain pattern, verifies the new secret is in use, and only then removes the old one.",
+          "file": "skills/devops/secrets-rotation-planner.md"
+        },
+        {
+          "id": "ssl-tls-certificate-rotator",
+          "name": "SSL/TLS Certificate Rotator",
+          "difficulty": "Intermediate",
+          "tags": [
+            "csp",
+            "devops",
+            "mtls",
+            "tls"
+          ],
+          "summary": "This Codex skill designs a certificate rotation plan for HTTPS endpoints, mTLS services, and internal PKI: identifies expiring certs, verifies the new cert chain, plans the deploy order (cert first, then key), and verifies the rotation via SSL Labs or openssl.",
+          "file": "skills/devops/ssl-tls-certificate-rotator.md"
+        },
+        {
+          "id": "terraform-plan-reviewer",
+          "name": "Terraform Plan Reviewer",
+          "difficulty": "Advanced",
+          "tags": [
+            "checkov",
+            "devops",
+            "iam",
+            "s3",
+            "terraform",
+            "tfsec"
+          ],
+          "summary": "This Codex skill reviews a Terraform plan output to identify risky changes: resource destruction, replacement (force-new), permission widening, public exposure of private resources, and untagged resources.",
+          "file": "skills/devops/terraform-plan-reviewer.md"
+        }
+      ]
+    },
+    {
+      "id": "testing",
+      "title": "Testing",
+      "icon": "\ud83e\uddea",
+      "tagline": "Build the testing pyramid: unit, integration, load, mutation, fuzz, contract, E2E, security.",
+      "capabilities": [
+        "unit",
+        "integration",
+        "load",
+        "fuzz",
+        "contract",
+        "E2E",
+        "security test planning"
+      ],
+      "skill_count": 10,
+      "skills": [
+        {
+          "id": "contract-test-generator",
+          "name": "Contract Test Generator",
+          "difficulty": "Intermediate",
+          "tags": [
+            "github-actions",
+            "testing"
+          ],
+          "summary": "This Codex skill generates contract tests for an API: verifies the server's response matches the OpenAPI/Protobuf contract, and verifies the client handles all documented error responses.",
+          "file": "skills/testing/contract-test-generator.md"
+        },
+        {
+          "id": "e2e-test-designer",
+          "name": "E2E Test Designer",
+          "difficulty": "Intermediate",
+          "tags": [
+            "cypress",
+            "playwright",
+            "testing"
+          ],
+          "summary": "This Codex skill designs end-to-end tests that verify a user flow through the application: login -> navigate -> perform action -> verify outcome.",
+          "file": "skills/testing/e2e-test-designer.md"
+        },
+        {
+          "id": "fuzz-test-harness-builder",
+          "name": "Fuzz Test Harness Builder",
+          "difficulty": "Advanced",
+          "tags": [
+            "afl",
+            "argo",
+            "github-actions",
+            "libfuzzer",
+            "testing"
+          ],
+          "summary": "This Codex skill builds a fuzz test harness for a parser, deserializer, or protocol handler: defines the input corpus, the harness function that feeds bytes to the target, the sanitizer integration (ASan, UBSan), and the CI integration.",
+          "file": "skills/testing/fuzz-test-harness-builder.md"
+        },
+        {
+          "id": "integration-test-designer",
+          "name": "Integration Test Designer",
+          "difficulty": "Intermediate",
+          "tags": [
+            "docker",
+            "github-actions",
+            "jest",
+            "pytest",
+            "testing"
+          ],
+          "summary": "This Codex skill designs integration tests that verify multiple components work together: API endpoint to database, queue producer to consumer, service to external API.",
+          "file": "skills/testing/integration-test-designer.md"
+        },
+        {
+          "id": "load-test-planner",
+          "name": "Load Test Planner",
+          "difficulty": "Advanced",
+          "tags": [
+            "jmeter",
+            "k6",
+            "locust",
+            "testing"
+          ],
+          "summary": "This Codex skill designs a load test: defines the workload model (read/write ratio, request mix), the load profile (ramp, steady, spike), the SLOs to verify, the metrics to capture, and the analysis to perform.",
+          "file": "skills/testing/load-test-planner.md"
+        },
+        {
+          "id": "mutation-test-runner",
+          "name": "Mutation Test Runner",
+          "difficulty": "Advanced",
+          "tags": [
+            "mutmut",
+            "stryker",
+            "testing"
+          ],
+          "summary": "This Codex skill runs mutation testing on a codebase to evaluate test suite quality: introduces small code mutations (change + to -, remove null check, flip boolean), runs the test suite, and reports the mutation score (percentage of mutations caught by tests).",
+          "file": "skills/testing/mutation-test-runner.md"
+        },
+        {
+          "id": "regression-test-prioritizer",
+          "name": "Regression Test Prioritizer",
+          "difficulty": "Intermediate",
+          "tags": [
+            "jest",
+            "pytest",
+            "testing"
+          ],
+          "summary": "This Codex skill analyzes a PR diff and selects the subset of existing tests most likely to catch regressions caused by this change.",
+          "file": "skills/testing/regression-test-prioritizer.md"
+        },
+        {
+          "id": "security-test-planner",
+          "name": "Security Test Planner",
+          "difficulty": "Intermediate",
+          "tags": [
+            "burp",
+            "codeql",
+            "dependabot",
+            "ecr",
+            "eks",
+            "owasp",
+            "pci",
+            "semgrep",
+            "snyk",
+            "soc-2"
+          ],
+          "summary": "This Codex skill designs a security test plan: SAST, SCA, secret scanning, DAST, IAST, and penetration testing scope.",
+          "file": "skills/testing/security-test-planner.md"
+        },
+        {
+          "id": "test-data-faker",
+          "name": "Test Data Faker",
+          "difficulty": "Beginner",
+          "tags": [
+            "testing"
+          ],
+          "summary": "This Codex skill generates realistic but fake test data for an application: users, orders, payments, products.",
+          "file": "skills/testing/test-data-faker.md"
+        },
+        {
+          "id": "unit-test-generator",
+          "name": "Unit Test Generator",
+          "difficulty": "Beginner",
+          "tags": [
+            "jest",
+            "junit",
+            "pytest",
+            "testing"
+          ],
+          "summary": "This Codex skill generates unit tests for a target function or class: identifies branches, generates inputs that cover each branch (including edge cases), asserts on the contract (return value, side effects, exceptions), and produces a test file ready to run.",
+          "file": "skills/testing/unit-test-generator.md"
+        }
+      ]
+    },
+    {
+      "id": "github-automation",
+      "title": "GitHub Automation",
+      "icon": "\ud83d\udc19",
+      "tagline": "Automate the GitHub lifecycle: Actions, releases, branch protection, Dependabot, OIDC, secret scanning.",
+      "capabilities": [
+        "Actions workflows",
+        "release automation",
+        "branch protection",
+        "OIDC federation",
+        "secret scanning"
+      ],
+      "skill_count": 14,
+      "skills": [
+        {
+          "id": "changelog-generator",
+          "name": "Changelog Generator",
+          "difficulty": "Beginner",
+          "tags": [
+            "github-automation"
+          ],
+          "summary": "This Codex skill generates a changelog from git history and PR metadata: groups changes by type (Added, Changed, Fixed, Removed, Security), writes user-facing descriptions, and respects Keep a Changelog format.",
+          "file": "skills/github-automation/changelog-generator.md"
+        },
+        {
+          "id": "github-actions-workflow-author",
+          "name": "GitHub Actions Workflow Author",
+          "difficulty": "Intermediate",
+          "tags": [
+            "docker",
+            "ecr",
+            "github-actions",
+            "github-automation",
+            "jest",
+            "trivy"
+          ],
+          "summary": "This Codex skill authors a GitHub Actions workflow YAML for a CI/CD pipeline: triggers, jobs, steps, caching, secrets, environment protection, and concurrency.",
+          "file": "skills/github-automation/github-actions-workflow-author.md"
+        },
+        {
+          "id": "github-branch-protection-designer",
+          "name": "GitHub Branch Protection Designer",
+          "difficulty": "Intermediate",
+          "tags": [
+            "github-automation",
+            "terraform"
+          ],
+          "summary": "This Codex skill designs branch protection rules for a repository: required reviews, required status checks, required linear history, force-push protection, deletion protection, and signed commits.",
+          "file": "skills/github-automation/github-branch-protection-designer.md"
+        },
+        {
+          "id": "github-codeowners-generator",
+          "name": "GitHub CODEOWNERS Generator",
+          "difficulty": "Beginner",
+          "tags": [
+            "github-automation"
+          ],
+          "summary": "This Codex skill generates or updates the CODEOWNERS file: maps directories and file patterns to the responsible teams or individuals, ensuring PRs auto-request the right reviewers.",
+          "file": "skills/github-automation/github-codeowners-generator.md"
+        },
+        {
+          "id": "github-dependabot-configurator",
+          "name": "GitHub Dependabot Configurator",
+          "difficulty": "Beginner",
+          "tags": [
+            "dependabot",
+            "docker",
+            "ecr",
+            "github-automation",
+            "helm",
+            "terraform"
+          ],
+          "summary": "This Codex skill configures Dependabot for a repository: dependency ecosystems, update schedule, grouping, reviewers, assignees, and commit message conventions.",
+          "file": "skills/github-automation/github-dependabot-configurator.md"
+        },
+        {
+          "id": "github-discussion-category-setup",
+          "name": "GitHub Discussion Category Setup",
+          "difficulty": "Beginner",
+          "tags": [
+            "github-automation"
+          ],
+          "summary": "This Codex skill sets up GitHub Discussions categories for a repo: Q&A, ideas, show-and-tell, announcements \u2014 with templates that guide users to provide the right info.",
+          "file": "skills/github-automation/github-discussion-category-setup.md"
+        },
+        {
+          "id": "github-issue-triage-bot",
+          "name": "GitHub Issue Triage Bot",
+          "difficulty": "Intermediate",
+          "tags": [
+            "ecr",
+            "github-actions",
+            "github-automation",
+            "rds"
+          ],
+          "summary": "This Codex skill designs a GitHub Actions bot that triages new issues: applies labels based on content, requests more info from the reporter, marks stale issues, and closes duplicates.",
+          "file": "skills/github-automation/github-issue-triage-bot.md"
+        },
+        {
+          "id": "github-oidc-cloud-federation-setup",
+          "name": "GitHub OIDC Cloud Federation Setup",
+          "difficulty": "Intermediate",
+          "tags": [
+            "ecr",
+            "github-actions",
+            "github-automation",
+            "iam",
+            "s3",
+            "terraform"
+          ],
+          "summary": "This Codex skill sets up OIDC federation between GitHub Actions and a cloud provider (AWS, GCP, Azure) so workflows can authenticate without long-lived secrets.",
+          "file": "skills/github-automation/github-oidc-cloud-federation-setup.md"
+        },
+        {
+          "id": "github-pages-deploy-setup",
+          "name": "GitHub Pages Deploy Setup",
+          "difficulty": "Beginner",
+          "tags": [
+            "github-actions",
+            "github-automation"
+          ],
+          "summary": "This Codex skill sets up a GitHub Actions workflow to build and deploy a static site (docs, blog, landing page) to GitHub Pages, with a custom domain, HTTPS, and cache headers.",
+          "file": "skills/github-automation/github-pages-deploy-setup.md"
+        },
+        {
+          "id": "github-pr-template-author",
+          "name": "GitHub PR Template Author",
+          "difficulty": "Beginner",
+          "tags": [
+            "github-automation"
+          ],
+          "summary": "This Codex skill authors PR templates (.github/PULL_REQUEST_TEMPLATE.md and multi-template variants) that capture the information reviewers need: summary, why, what changed, test plan, risk, security review.",
+          "file": "skills/github-automation/github-pr-template-author.md"
+        },
+        {
+          "id": "github-release-automator",
+          "name": "GitHub Release Automator",
+          "difficulty": "Intermediate",
+          "tags": [
+            "argo",
+            "docker",
+            "github-actions",
+            "github-automation"
+          ],
+          "summary": "This Codex skill automates the GitHub release process: tag creation, release notes generation, asset upload, and the release announcement.",
+          "file": "skills/github-automation/github-release-automator.md"
+        },
+        {
+          "id": "github-repo-migrator",
+          "name": "GitHub Repo Migrator",
+          "difficulty": "Intermediate",
+          "tags": [
+            "codeql",
+            "dependabot",
+            "ecr",
+            "github-automation"
+          ],
+          "summary": "This Codex skill migrates a repo from one GitHub org to another (or from another platform): clones the source, preserves history, recreates settings, secrets, webhooks, and integrations.",
+          "file": "skills/github-automation/github-repo-migrator.md"
+        },
+        {
+          "id": "github-repo-settings-auditor",
+          "name": "GitHub Repo Settings Auditor",
+          "difficulty": "Intermediate",
+          "tags": [
+            "dependabot",
+            "ecr",
+            "github-automation"
+          ],
+          "summary": "This Codex skill audits a GitHub repo's settings for security and consistency: visibility, default branch, branch protection, secrets, webhooks, collaborators, integrations, and the minimum admin count.",
+          "file": "skills/github-automation/github-repo-settings-auditor.md"
+        },
+        {
+          "id": "github-secret-scanning-configurator",
+          "name": "GitHub Secret Scanning Configurator",
+          "difficulty": "Intermediate",
+          "tags": [
+            "ecr",
+            "github-automation"
+          ],
+          "summary": "This Codex skill configures GitHub's secret scanning and push protection for a repository: enables scanning, configures custom patterns for org-specific secrets, and sets up alert routing.",
+          "file": "skills/github-automation/github-secret-scanning-configurator.md"
+        }
+      ]
+    }
+  ]
+}
