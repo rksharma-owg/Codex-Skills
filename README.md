@@ -147,6 +147,11 @@ python scripts/build_catalog.py
 
 MIT — see [LICENSE](./LICENSE). Use these skills freely in personal, commercial, or open-source projects.
 
-## 👤 Maintainer
+## 🤝 Contributors
 
-Curated by **Rajesh Sharma** (`rajesh.sharma@owasp.org`). Issues and PRs welcome on [GitHub](https://github.com/rksharma-owg/Codex-Skills).
+| | Contributor | Role |
+|---|-------------|------|
+| ![@rksharma-owg](https://github.com/rksharma-owg.png?size=40) | [@rksharma-owg](https://github.com/rksharma-owg) | Maintainer |
+| ![@anthropics](https://github.com/anthropics.png?size=40) | [Claude](https://claude.ai) · by Anthropic | AI Contributor |
+
+Issues and PRs welcome on [GitHub](https://github.com/rksharma-owg/Codex-Skills).
