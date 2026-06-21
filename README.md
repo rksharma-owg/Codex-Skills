@@ -151,7 +151,7 @@ MIT — see [LICENSE](./LICENSE). Use these skills freely in personal, commercia
 
 | | Contributor | Role |
 |---|-------------|------|
-| ![@rksharma-owg](https://github.com/rksharma-owg.png?size=40) | [@rksharma-owg](https://github.com/rksharma-owg) | Maintainer |
-| ![@anthropics](https://github.com/anthropics.png?size=40) | [Claude](https://claude.ai) · by Anthropic | AI Contributor |
+| ![@rksharma-owg]| [@rksharma-owg](https://github.com/rksharma-owg) | Maintainer |
+
 
 Issues and PRs welcome on [GitHub](https://github.com/rksharma-owg/Codex-Skills).
