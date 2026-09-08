@@ -2,9 +2,9 @@
 
 # 🛡️ Codex Agent Skills
 
-**123 production-ready skills for Codex, Claude Code, Cursor, and any LLM-based coding agent.**
+**124 production-ready skills for Codex, Claude Code, Cursor, and any LLM-based coding agent.**
 
-[![Skills](https://img.shields.io/badge/skills-123-blue)](./catalog/index.md)
+[![Skills](https://img.shields.io/badge/skills-124-blue)](./catalog/index.md)
 [![Categories](https://img.shields.io/badge/categories-8-green)](#-skill-categories)
 [![License](https://img.shields.io/badge/license-MIT-purple)](./LICENSE)
 
@@ -16,7 +16,7 @@ A curated, opinionated library of Codex agent skills for developers, security en
 
 ## ✨ Highlights
 
-- **123 skills** across **8 categories**, each with the same 8-section structure.
+- **124 skills** across **8 categories**, each with the same 8-section structure.
 - **YAML frontmatter** on every skill — searchable, machine-readable, indexed.
 - **3 ready-made workflows** chaining multiple skills for real-world use cases.
 - **Validation tooling** — `scripts/validate.py` checks frontmatter, links, and structure.

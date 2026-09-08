@@ -89,6 +89,8 @@ def main():
         cat_skills = []
         if cat_dir.exists():
             for md in sorted(cat_dir.glob("*.md")):
+                if md.name == "README.md":
+                    continue
                 content = md.read_text()
                 fm, _ = parse_frontmatter(content)
                 skill = {

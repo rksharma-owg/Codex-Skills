@@ -1,6 +1,6 @@
 # Codex Agent Skills — Catalog
 
-**123 skills** across **8 categories**. Each skill is a standalone Markdown file with YAML frontmatter, ready to paste into Codex, Claude Code, Cursor, or any LLM-based coding agent.
+**124 skills** across **8 categories**. Each skill is a standalone Markdown file with YAML frontmatter, ready to paste into Codex, Claude Code, Cursor, or any LLM-based coding agent.
 
 ## Browse by Category
 
@@ -8,7 +8,7 @@
 - [🔒 Secure Coding (16)](#secure-coding) — Harden code at the source: validation, encoding, sessions, crypto, and code-review fundamentals.
 - [☁️ Cloud Security & Compliance (19)](#cloud-security) — Audit AWS/Azure/GCP posture, segment networks, and satisfy PCI, GDPR, SOC 2, HIPAA, ISO 27001.
 - [🚨 Incident Response (14)](#incident-response) — Detect, contain, and learn from incidents — forensics, RCA, comms, postmortems, and DSAR.
-- [🤖 AI Security (9)](#ai-security) — Test and harden LLM applications: prompt injection, RAG trust, model supply chain, agent gating.
+- [🤖 AI Security (10)](#ai-security) — Test and harden LLM applications: prompt injection, RAG trust, model supply chain, agent gating.
 - [⚙️ DevOps & Engineering Practice (26)](#devops) — Ship safer and faster: CI optimization, container hardening, observability, architecture, and docs.
 - [🧪 Testing (10)](#testing) — Build the testing pyramid: unit, integration, load, mutation, fuzz, contract, E2E, security.
 - [🐙 GitHub Automation (14)](#github-automation) — Automate the GitHub lifecycle: Actions, releases, branch protection, Dependabot, OIDC, secret scanning.
@@ -17,7 +17,7 @@
 
 - **Beginner** — 14 skills
 - **Intermediate** — 81 skills
-- **Advanced** — 28 skills
+- **Advanced** — 29 skills
 
 ---
 
@@ -125,7 +125,7 @@ _Detect, contain, and learn from incidents — forensics, RCA, comms, postmortem
 
 _Test and harden LLM applications: prompt injection, RAG trust, model supply chain, agent gating._
 
-**9 skills** · Capabilities: prompt injection, LLM output filtering, RAG trust, model supply chain, drift monitoring
+**10 skills** · Capabilities: prompt injection, LLM output filtering, RAG trust, model supply chain, drift monitoring
 
 | # | Skill | Difficulty | Summary | File |
 |---|-------|------------|---------|------|
@@ -134,10 +134,11 @@ _Test and harden LLM applications: prompt injection, RAG trust, model supply cha
 | 3 | AI PII Redactor | Intermediate | This Codex skill designs a PII redaction layer for an LLM application: detects PII in user input and LLM output (SSN, em… | [`skills/ai-security/ai-pii-redactor.md`](../skills/ai-security/ai-pii-redactor.md) |
 | 4 | LLM Evaluation Harness Builder | Advanced | This Codex skill builds an evaluation harness for an LLM application: test cases for accuracy, safety, fairness, robustn… | [`skills/ai-security/llm-evaluation-harness-builder.md`](../skills/ai-security/llm-evaluation-harness-builder.md) |
 | 5 | LLM Output Filter Designer | Intermediate | This Codex skill designs output filters for an LLM application: content moderation (toxicity, PII, regulated content), f… | [`skills/ai-security/llm-output-filter-designer.md`](../skills/ai-security/llm-output-filter-designer.md) |
-| 6 | Model Drift Monitor | Advanced | This Codex skill designs a monitoring system for ML model drift: input drift (feature distribution shift), output drift … | [`skills/ai-security/model-drift-monitor.md`](../skills/ai-security/model-drift-monitor.md) |
-| 7 | Prompt Injection Tester | Advanced | This Codex skill tests an LLM application for prompt injection vulnerabilities: direct injection (user input overrides s… | [`skills/ai-security/prompt-injection-tester.md`](../skills/ai-security/prompt-injection-tester.md) |
-| 8 | RAG Source Trust Evaluator | Advanced | This Codex skill evaluates the trustworthiness of retrieval sources in a RAG pipeline: source provenance, freshness, con… | [`skills/ai-security/rag-source-trust-evaluator.md`](../skills/ai-security/rag-source-trust-evaluator.md) |
-| 9 | Vector DB Security Auditor | Advanced | This Codex skill audits a vector database (Pinecone, Weaviate, Milvus, pgvector) for security: authentication, authoriza… | [`skills/ai-security/vector-db-security-auditor.md`](../skills/ai-security/vector-db-security-auditor.md) |
+| 6 | MCP Server Security Auditor | Advanced | Audits Model Context Protocol (MCP) servers and tool implementations for input validation vulnerabilities, unconstrained… | [`skills/ai-security/mcp-server-security-auditor.md`](../skills/ai-security/mcp-server-security-auditor.md) |
+| 7 | Model Drift Monitor | Advanced | This Codex skill designs a monitoring system for ML model drift: input drift (feature distribution shift), output drift … | [`skills/ai-security/model-drift-monitor.md`](../skills/ai-security/model-drift-monitor.md) |
+| 8 | Prompt Injection Tester | Advanced | This Codex skill tests an LLM application for prompt injection vulnerabilities: direct injection (user input overrides s… | [`skills/ai-security/prompt-injection-tester.md`](../skills/ai-security/prompt-injection-tester.md) |
+| 9 | RAG Source Trust Evaluator | Advanced | This Codex skill evaluates the trustworthiness of retrieval sources in a RAG pipeline: source provenance, freshness, con… | [`skills/ai-security/rag-source-trust-evaluator.md`](../skills/ai-security/rag-source-trust-evaluator.md) |
+| 10 | Vector DB Security Auditor | Advanced | This Codex skill audits a vector database (Pinecone, Weaviate, Milvus, pgvector) for security: authentication, authoriza… | [`skills/ai-security/vector-db-security-auditor.md`](../skills/ai-security/vector-db-security-auditor.md) |
 
 ## ⚙️ DevOps & Engineering Practice
 
