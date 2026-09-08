@@ -2,7 +2,7 @@
   "name": "Codex Agent Skills",
   "version": "2.0.0",
   "description": "A curated library of production-ready Codex agent skills for developers, security engineers, AI builders, DevOps teams, and automation workflows.",
-  "total_skills": 123,
+  "total_skills": 124,
   "categories": [
     {
       "id": "cybersecurity",
@@ -980,7 +980,7 @@
         "model supply chain",
         "drift monitoring"
       ],
-      "skill_count": 9,
+      "skill_count": 10,
       "skills": [
         {
           "id": "ai-agent-tool-gatekeeper",
@@ -1044,6 +1044,19 @@
           ],
           "summary": "This Codex skill designs output filters for an LLM application: content moderation (toxicity, PII, regulated content), format validation (JSON schema, regex), and safety guards (no tool invocation without approval).",
           "file": "skills/ai-security/llm-output-filter-designer.md"
+        },
+        {
+          "id": "mcp-server-security-auditor",
+          "name": "MCP Server Security Auditor",
+          "difficulty": "Advanced",
+          "tags": [
+            "ai-security",
+            "mcp",
+            "model-context-protocol",
+            "agent-security"
+          ],
+          "summary": "Audits Model Context Protocol (MCP) servers and tool implementations for input validation vulnerabilities, unconstrained batch sizes, credential leaks, unbounded resource consumption, and authorization boundary bypasses.",
+          "file": "skills/ai-security/mcp-server-security-auditor.md"
         },
         {
           "id": "model-drift-monitor",
